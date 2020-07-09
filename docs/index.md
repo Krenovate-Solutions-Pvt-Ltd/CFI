@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# **Crush Fitness India - Admin Guide**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the world of real-time, online fitness training. The online classroom provides an easy-to-use interface with a powerful set of tools allowing you to interact with your audience in real-time over the web, anytime and anywhere.
 
-## Commands
+As an administrator, you will see that setting up online sessions is a snap.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This Admin Manual will serve as a guide to the adminsitrators at Crush Fitness, in their day-to-day performance of administrative and management functions.
 
-## Project layout
+It contains tips and methods for establishing, organizing, writing, and editing each component of the website and should be useful to anyone associated with these activities. 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
