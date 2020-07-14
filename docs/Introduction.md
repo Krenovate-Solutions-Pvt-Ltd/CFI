@@ -13,7 +13,7 @@ The Admin manual has been created for the Admin team of Crush Fitness India. The
 *   Enter the User id and password
 *   Click on Log In
 
-![adminlogin](../images/adminlogin.jpg)
+![adminlogin](images/adminlogin.jpg)
 
 ### **_Login Credentials_**
 
@@ -27,7 +27,7 @@ Please note: the login credentials are case sensitive and have to be entered in 
 In this manual we will cover step-by-step instructions for the below tasks:
 
 *   [Zoom Single Class](Zoom-Single-Class.md)
-*   Pre Recorded Class
+*   [Pre Recorded Class](Pre-Recorded-Class.md)
 *   Category Creation
 *   Lessons & Videos
 *   Program Sections

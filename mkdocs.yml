@@ -1,8 +1,8 @@
 site_name: CFI Documentation
 nav:
-  - CFI Admin Manual:
-    -  Introduction:  'CFI-Admin-Manual/Introduction.md'
-    -  Zoom Single Class:  'CFI-Admin-Manual/Zoom-Single-Class.md'
+  -  Introduction:  'Introduction.md'
+  -  Zoom Single Class:  'Zoom-Single-Class.md'
+  -  Pre Recorded Class:  'Pre-Recorded-Class.md'
 theme:
   name: material
   features:
