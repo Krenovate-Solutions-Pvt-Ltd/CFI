@@ -8,3 +8,4 @@ This Admin Manual will serve as a guide to the adminsitrators at Crush Fitness, 
 
 It contains tips and methods for establishing, organizing, writing, and editing each component of the website and should be useful to anyone associated with these activities. 
 
+[So, let's Begin!!](Introduction.md)
