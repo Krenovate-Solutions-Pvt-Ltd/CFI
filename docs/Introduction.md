@@ -1,4 +1,4 @@
-## **_Introduction_**
+# **_Introduction_**
 
 The Admin manual has been created for the Admin team of Crush Fitness India. The purpose of this is to:
 

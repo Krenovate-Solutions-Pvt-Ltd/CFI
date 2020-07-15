@@ -1,12 +1,12 @@
-## **Pre Recorded Class**
+# **Pre Recorded Class**
 
 ### **_Introduction_**
 
-Pre Recorded Class is an interactive class which enables the customers to take care of their fitness goals from anywhere, anytime.
+Pre-Recorded Class is an interactive class which enables the customers to take care of their fitness goals from anywhere, anytime.
 
-These are pre recorded sessions hosted on Vimeo, for which the Crush Fitness India adminstrator can upload the link on the website.
+These are pre-recorded sessions hosted on Vimeo, for which the Crush Fitness India adminstrator can upload the link on the website.
 
-Below is the step-by-step guide to create Pre Recorded Class.
+Below is the step-by-step guide to create Pre-Recorded Class.
 
 ### **_Create Pre Recorded Class_**
 
