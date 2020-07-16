@@ -1,12 +1,12 @@
 # **Zoom Single Class**
 
-### **_Introduction_**
+## **_Introduction_**
 
 Zoom class is an interactive class which enables the customers to take care of their fitness goals from anywhere, anytime.
 
 Below is the step-by-step guide to create Zoom Classes.
 
-### **_Create Zoom meeting_**
+## **_Create Zoom meeting_**
 
 *   Go to online.crushfitnessindia.com/wp-admin
 *   Login with the given credentials.
@@ -60,40 +60,43 @@ Below is the step-by-step guide to create Zoom Classes.
 ![product id](images/Zoom/productid.jpg)
 
 
-### **_Create Product for the related Product id_**
+## **_Create Product for the related Product id_**
 
-*   Click on the Product id. You will be directed to the Product screen.
+Click on the Product id. You will be directed to the Product screen.
 
 
 *   On the Product page:
 
-    *   Enter name in the name field.
+    1.   Enter name in the name field.
 
     ![product screen](images/Zoom/productscreen.jpg)
 
-    *   Go to Product Field:
-    *   
-        *   Enter the Date & Time for the class
+    2.   Go to Product Field:
+  
+    *   Enter the Date & Time for the class
 
         ![product date](images/Zoom/productfield.jpg)
 
-        *   Choose Type of class
+    *   Choose Type of class
 
         ![type of class](images/Zoom/typeofclass.jpg)
 
-    *   Go to Product Data -> Zoom Meeting
+    3.   Go to Product Data -> Zoom Meeting
 
-        ![product data](images/Zoom/productdata.jpg)
+    ![product data](images/Zoom/productdata.jpg)
 
-    *   In the Zoom Connection field -> Enable Zoom Connection.
+    4.   In the Zoom Connection field -> Enable Zoom Connection.
 
     ![zoom connection](images/Zoom/zoomconnection.jpg)
 
 *   Product page -> Right side panel:
 
-    *   Go to Product Categories -> Group Fitness -> Single Zoom CLass
+    1.   Go to Product Categories -> Group Fitness -> Single Zoom CLass
 
     ![product category](images/Zoom/productcategory.jpg)
+
+
+## **_Publish_**
 
 *   Click Publish to save the settings.
 

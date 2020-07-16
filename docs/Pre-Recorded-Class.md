@@ -1,6 +1,6 @@
 # **Pre Recorded Class**
 
-### **_Introduction_**
+## **_Introduction_**
 
 Pre-Recorded Class is an interactive class which enables the customers to take care of their fitness goals from anywhere, anytime.
 
@@ -8,7 +8,7 @@ These are pre-recorded sessions hosted on Vimeo, for which the Crush Fitness Ind
 
 Below is the step-by-step guide to create Pre-Recorded Class.
 
-### **_Create Pre Recorded Class_**
+## **_Create Pre Recorded Class_**
 
 *   Go to online.crushfitnessindia.com/wp-admin
 *   Login with the given credentials.
@@ -34,34 +34,35 @@ Below is the step-by-step guide to create Pre-Recorded Class.
         4.  Paste in the Video Url field
 
     ![vimeo url](images/Pre-Recorded-Class/vimeourl.jpg)
+    
     *   Add Video Duration - always enter duration in minutes.
     *   Enter Start Date/Time - 
 
 ![recorded class details](images/Pre-Recorded-Class/recordedclassdetails.jpg)  
 
 
-* Right Side panel :
+## **_Right Side panel_**
 
-    1.  Tick the Enable Purchase check box
+1.  Tick the Enable Purchase check box
 
     ![enable purchase](images/Pre-Recorded-Class/enablepurchase.jpg)
 
-    2.  CLick on Regular Price and enter an amount
+2.  CLick on Regular Price and enter an amount
 
     ![regular price](images/Pre-Recorded-Class/regularprice.jpg)
 
-    3.  Click on Publish
+3.  Click on Publish
 
     ![publish](images/Pre-Recorded-Class/publish.jpg)
 
-    4.  Once the meeting is published, a Product id & Product Name is created.
+4.  Once the meeting is published, a Product id & Product Name is created.
 
     ![prodcut id](images/Pre-Recorded-Class/productid.jpg)
 
 
-### **_Create Product for the related Product id_**
+## **_Create Product for the related Product id_**
 
-*   Click on the Product id. You will be directed to the Product screen.
+Click on the Product id. You will be directed to the Product screen.
 
 
 *   On the Product page:
@@ -97,6 +98,8 @@ Below is the step-by-step guide to create Pre-Recorded Class.
     3.  Check Group Fitness -> Pre Recorded Class
 
     ![product category](images/Pre-Recorded-Class/productcategory.jpg)
+
+## **_Publish_**
 
 *   Click Publish to save the settings.
 
