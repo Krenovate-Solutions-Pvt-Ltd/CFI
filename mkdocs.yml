@@ -4,10 +4,10 @@ nav:
   -  Zoom Single Class:  'Zoom-Single-Class.md'
   -  Pre Recorded Class:  'Pre-Recorded-Class.md'
   -  Custom Fitness:
-    -  Lectures:  'Custom-Fitness/Lectures.md'
-    -  Videos:  'Custom-Fitness/Videos.md'
-    -  Program Section:  'Custom-Fitness/Program-Section.md'
-    -  Custom Fitness Program:  'Custom-Fitness/Custom-Fitness-Program.md'
+      -  Lectures:  'Custom-Fitness/Lectures.md'
+      -  Videos:  'Custom-Fitness/Videos.md'
+      -  Program Section:  'Custom-Fitness/Program-Section.md'
+      -  Custom Fitness Program:  'Custom-Fitness/Custom-Fitness-Program.md'
 theme:
   name: material
   features:
