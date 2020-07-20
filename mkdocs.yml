@@ -1,6 +1,5 @@
 site_name: CFI Documentation
 nav:
-  -  Introduction:  'Introduction.md'
   -  Zoom Single Class:  'Zoom-Single-Class.md'
   -  Pre Recorded Class:  'Pre-Recorded-Class.md'
   -  Custom Fitness:
