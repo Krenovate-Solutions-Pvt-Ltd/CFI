@@ -27,10 +27,8 @@ The Admin manual has been created for the Admin team of Crush Fitness India. The
 
 ## **_Login Credentials_**
 
-*   Username: Crushfitness
-*   Password: rYn)uuqio#ACb$89s&rhFWgm
-
-Note: the login credentials are case sensitive and have to be entered in the given format.
+*   The username and password is available with the Admin team.
+*   The login credentials are case sensitive and have to be entered in the given format.
 
 ## **_List of admin tasks_**
 
