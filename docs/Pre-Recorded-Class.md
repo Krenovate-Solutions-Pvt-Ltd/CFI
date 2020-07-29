@@ -103,3 +103,12 @@ Click on the Product id. You will be directed to the Product screen.
 
 *   Click Publish to save the settings.
 
+## **_Note_**
+
+All the Pre-recorded Classes card from the dashboard are set to expire/stop exactly at double the time of the class duration.
+
+Class Validity = (Class duration in minutes)*2
+
+E.g. If the duration of class is 30 minutes, then the Card will be visible on the dashboard for 60 mins.
+
+
