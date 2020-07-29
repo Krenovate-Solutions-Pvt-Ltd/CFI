@@ -100,3 +100,8 @@ Click on the Product id. You will be directed to the Product screen.
 
 *   Click Publish to save the settings.
 
+
+## **_Note_**
+
+All the Zoom Classes card from the dashboard are set to expire exactly at 2 hours, after the class has first started.
+
