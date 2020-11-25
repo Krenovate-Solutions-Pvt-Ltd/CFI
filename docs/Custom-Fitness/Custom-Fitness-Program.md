@@ -1,6 +1,6 @@
 # **Custom Fitness Program**
 
-## **_Introduction_**
+## **Introduction**
 
 Custom Fitness Program is a personalised training program created manually for individual customers.
 
@@ -12,31 +12,31 @@ Few features to keep in mind about Custom Fitness Program:
 -   Once, the requirements are finalised, a customised program is designed.
 -   Only 1 Program Section can be assigned to 1 custom fitness program. 
 
-## **_Create Custom Fitness Program_**
+## **Create Custom Fitness Program**
 
-*   Go to online.crushfitnessindia.com/wp-admin
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
-*   Click on Custom Fitness Program tab on left side panel
+*   Click on **Custom Fitness Program** tab on left side panel
 
 ![CFP](../images/Custom-Fitness-Program/CFP.jpg)
 
-### **_Create new program_**
+### **Create new program**
 
-*   Click on Add New
+*   Click -> **Add New**
 
 ![add new](../images/Custom-Fitness-Program/addnew.jpg)
 
-*   Add Title
+*   Add Title -> Enter name here
 
    ![add title](../images/Custom-Fitness-Program/addtitle.jpg)
 
-### **_Programs Field_**
+### **Programs Fields**
 
 *   Programs Image - Here you can upload the program image which will show on the frontend.
 
 ![prog image](../images/Custom-Fitness-Program/progimage.jpg)
 
-### **_Programs Program Section_**
+### **Programs Program Section**
 
 In this section:
 
@@ -46,14 +46,14 @@ In this section:
 ![prog sect](../images/Custom-Fitness-Program/progsect.jpg)
 
 
-1. Click on Connect existing Program Section
+1. Click -> **Connect existing Program Section**
 2. Choose the program from the list
-3. Click on Save
+3. Click -> **Save**
 
 ![connect prog](../images/Custom-Fitness-Program/connectprog.jpg)
 
 
-### **_Programs Customers_**
+### **Programs Customers**
 
 In this section:
 
@@ -62,15 +62,15 @@ In this section:
 
 ![prog cust](../images/Custom-Fitness-Program/progcust.jpg)
 
-1. Click on Connect existing customer
+1. Click -> **Connect existing customer**
 2. Choose the customer name from the list
 3. Make sure you choose the customer name with details like email id and phone number.
-4. Click on Save
+4. Click -> **Save**
 
 ![connect cust](../images/Custom-Fitness-Program/connectcust.jpg)
 
 
-## **_Publish_**
+## **Publish**
 
 Once all the connection is done:
 
@@ -80,9 +80,9 @@ Once all the connection is done:
 ![publish](../images/Custom-Fitness-Program/publish.jpg)
 
 
-## **_Warning_**
+## **Warning**
 
--   Do not allott one customer's program section to the other customer.
+-   Do not allot one customer's program section to the other customer.
 -   Doing so, the program section from the original customer's profile will get disconnected.
 
 

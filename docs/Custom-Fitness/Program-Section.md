@@ -1,18 +1,18 @@
 # **Program Section**
 
-## **_Introduction_**
+## **Introduction**
 
 Program Section is the section which controls the whole system of creating custom fitness programs.
 
-## **_Create Program Section_**
+## **Create Program Section**
 
-*   Go to online.crushfitnessindia.com/wp-admin
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
 *   Click on Program Section tab on left side panel
 
 ![prog section](../images/Program-Section/progsect.jpg)
 
-### **_Create new program_**
+### **Create new program**
 
 *   Click on Add New
 
@@ -25,17 +25,17 @@ Program Section is the section which controls the whole system of creating custo
 
 ![add title](../images/Program-Section/addtitle.jpg)
 
-### **_Fields for Program Section_**
+### **Fields for Program Section**
 
-*   Program Description: Here you can enter the detiled description and features about the program.
+*   **Program Description**: Here you can enter the detiled description and features about the program.
 
 ![prog desc](../images/Program-Section/progdesc.jpg)
 
-*   Position number of ordering: This is the sequence number of the program.
+*   **Position number of ordering**: This is the sequence number of the program.
 
 ![position](../images/Program-Section/positionorder.jpg)
 
-### **_Program Section Lectures_**
+### **Program Section Lectures**
 
 In this section:
 
@@ -52,7 +52,7 @@ In this section:
 
 ![connect lecture](../images/Program-Section/selectlecture.jpg)
 
-### **_Program Section Videos_**
+### **Program Section Videos**
 
 In this section:
 
@@ -71,7 +71,7 @@ In this section:
 
 
 
-## **_Publish_**
+## **Publish**
 
 Once all the content is final:
 
@@ -81,18 +81,18 @@ Once all the content is final:
 ![publish](../images/Program-Section/publish.jpg)
 
 
-## **_Important Tips_**
+## **Important Tips**
 
 -   Each Lecture and video can be part of multiple programs. It follows a 1-to-many relation.
 -   In case of a wrong connection:
 
     - Click on Edit/Quick Edit- this let's you edit the details.
-    - Do not click on Thrash - this will delete the lecture/video permanently from every program.
+    - Do not click on Trash - this will delete the lecture/video permanently from every program.
     - Click Disconnect
 
     ![disconnect](../images/Program-Section/disconnect.jpg)
 
--   Do not edit/ touch the below section shown in the image below:
+-   Do not edit/ make changes to the section shown in the image below:
 
 ![do not edit](../images/Program-Section/donotedit.jpg)
 

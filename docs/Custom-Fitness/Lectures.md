@@ -1,12 +1,12 @@
 # **Lectures**
 
-## **_Introduction_**
+## **Introduction**
 
 Lectures are pre-recorded videos or images which can be embedded in specific programs which are part of the Custom Fitness Program.
 
-## **_Create Lectures_**
+## **Create Lectures**
 
-*   Go to online.crushfitnessindia.com/wp-admin
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
 *   Click on Lectures tab on left side panel
 
@@ -43,7 +43,7 @@ Once the Title is entered, a link for the lecture is created.
 
 ![desc block](../images/Lectures/descblock.jpg)
 
-### **_Tools Available_**
+### **Tools Available**
 
 *   Change block type/style
 
@@ -69,7 +69,7 @@ Once the Title is entered, a link for the lecture is created.
 
 ![more options](../images/Lectures/moreoptions.jpg)
 
-### **_Add Block_**
+### **Add Block**
 
 - An Add Block is represented by "+" sign in the editor.
 - It is a shortcut to access basic formatting options.
@@ -100,7 +100,7 @@ Once the Title is entered, a link for the lecture is created.
      -   WooCommerce
 
 
-### **_Preview_**
+### **Preview**
 
 Once all the content is added to the editor, they can be previewed before the final save.
 
@@ -112,7 +112,7 @@ Once all the content is added to the editor, they can be previewed before the fi
 
 ![preview page](../images/Lectures/previewpage.jpg)
 
-## **_Right Side Panel_**
+## **Right Side Panel**
 
 *   Click on Documents
 *   Go to Discussion
@@ -124,7 +124,7 @@ Once all the content is added to the editor, they can be previewed before the fi
 
 ![featured image](../images/Lectures/featuredimage.jpg)
 
-## **_Publish_**
+## **Publish**
 
 Once all the content is final:
 
@@ -134,12 +134,12 @@ Once all the content is final:
 ![publish](../images/Lectures/publish.jpg)
 
 
-## **_Important Tips_**
+## **Important Tips**
 
 -   Adding content to lectures is similar to writing an email.
 -   Anything can be added in the content: text, images, videos, links to thrid party apps etc.
 -   All formatting options are available: paragraph, indent, text formatting, heading etc.
--   Do not edit/ touch the two sections shown in the image below:
+-   Do not edit/ make changes to the two sections shown in the image below:
 
 ![do not touch](../images/Lectures/donottouch.jpg)
 

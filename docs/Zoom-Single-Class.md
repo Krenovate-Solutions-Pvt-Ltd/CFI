@@ -1,24 +1,27 @@
 # **Zoom Single Class**
 
-## **_Introduction_**
+## **Introduction**
 
 Zoom class is an interactive class which enables the customers to take care of their fitness goals from anywhere, anytime.
 
 Below is the step-by-step guide to create Zoom Classes.
 
-## **_Create Zoom meeting_**
+## **Create Zoom meeting**
 
-*   Go to online.crushfitnessindia.com/wp-admin
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
-*   Click on Zoom Meeting on left side panel
+
+### **Left Side Panel**
+
+*   Click -> **Zoom Meeting** 
 
 ![meeting](images/Zoom/zoommeeting.jpg)
 
-*   Click on Add new
+*   Click -> **Add new**
 
 ![add new](images/Zoom/zoomadd.jpg)
 
-*   Enter Name of Class in Add title
+*   Add Title -> Enter Name of Class 
 
 ![add name](images/Zoom/zoomname.jpg)
 
@@ -36,72 +39,84 @@ Below is the step-by-step guide to create Zoom Classes.
 
 ![options](images/Zoom/tickoptions.jpg)
 
-*   On the right side panel:
+### **Right Side Panel**
 
-    *   Go to Category
-    *   It should be marked as "Group"
+Options to be edited on the right side panel are discussed below:
+
+-   Go to -> **Category**
+-   It should be marked as "**Group**"
 
 ![category](images/Zoom/category.jpg)
 
-*   Tick the Enable Purchase check box
+*   Tick the **Enable Purchase** check box
 
 ![enable purchase](images/Zoom/enablepurchase.jpg)
 
-*   Click on Regular Price and enter an amoumt
+*   Click on **Regular Price** and enter an amoumt
 
 ![price](images/Zoom/regularprice.jpg)
 
-*   Click on Publish
+*   Click on **Publish**
 
 ![publish](images/Zoom/publish.jpg)
 
-*   Once the meeting is published, a Product id is created. 
+*   Once the meeting is published, a **Product id** is created. 
 
 ![product id](images/Zoom/productid.jpg)
 
 
-## **_Create Product for the related Product id_**
 
-Click on the Product id. You will be directed to the Product screen.
+##  **Attaching Template against a Product**
+
+1.  Go to -> the respective class
+2.  Click -> Edit
+
+    ![zoomprod](images\Zoom\zoomprod.jpg)
+
+3.  Go to -> Right Side Panel 
+
+### **Product Categories** 
+
+-   Group Fitness -> Select the Template with the same name to be connected with the product.
+
+    ![prod cat](images\Zoom\prodcat.jpg)
+
+**Note** - **Do not select the Parent Category here**
+
+### **WooCommerce Integration** 
+
+-   Click -> **Product Id#** - you will be directed to the edit product page.
+
+    ![prodid](images\Zoom\prodid.jpg)
+
+####    **_Left Side Panel_ - Visibility** 
+
+- Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
+
+    ![visibility](images\Zoom\visibility.jpg)
+
+####    **_Left Side Panel_ - Product Template**
+
+This is the last section located at the bottom of the page. Follow below steps:
+
+-   Click -> **Connect existing Product Template**
+-   From the list select the corresponding template.
+
+![prod template](images\Zoom\prodtemplate.jpg)
+
+####    **_Right Side Panel_ - Product Categories**
+
+-   Select **only** the Parent Category here.
+
+    ![prodcat1](images\Zoom\prodcat1.jpg)
+
+## **Publish/Update**
+
+*   Click Update to save the changes.
+
+![update](images\Zoom\update.jpg)
 
 
-*   On the Product page:
-
-    1.   Enter name in the name field.
-
-    ![product screen](images/Zoom/productscreen.jpg)
-
-    2.   Go to Product Field:
-  
-    *   Enter the Date & Time for the class
-
-        ![product date](images/Zoom/productfield.jpg)
-
-    *   Choose Type of class
-
-        ![type of class](images/Zoom/typeofclass.jpg)
-
-    3.   Go to Product Data -> Zoom Meeting
-
-    ![product data](images/Zoom/productdata.jpg)
-
-    4.   In the Zoom Connection field -> Enable Zoom Connection.
-
-    ![zoom connection](images/Zoom/zoomconnection.jpg)
-
-*   Product page -> Right side panel:
-
-    1.   Go to Product Categories -> Group Fitness -> Single Zoom CLass
-
-    ![product category](images/Zoom/productcategory.jpg)
-
-
-## **_Publish_**
-
-*   Click Publish to save the settings.
-
-
-## **_Note_**
+## **Note**
 
 All the Zoom Classes card from the dashboard are set to expire exactly at 2 hours, after the class has first started.
-
