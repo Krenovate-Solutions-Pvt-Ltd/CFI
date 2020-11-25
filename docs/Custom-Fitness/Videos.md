@@ -1,12 +1,12 @@
-# **Videos**
+#   **Videos**
 
-## **_Introduction_**
+##  **Introduction**
 
 Videos are pre-recorded videos which can be embedded in specific programs which are part of the Custom Fitness Program. These videos can be available on third party apps, eg: Youtube, Vimeo etc.
 
-## **_Create Videos_**
+## **Create Videos**
 
-*   Go to online.crushfitnessindia.com/wp-admin
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
 *   Click on Videos tab on left side panel
 
@@ -50,7 +50,7 @@ Once the Title is entered, a link for the Video is created.
 
 ![add video](../images/Videos/addvideo.jpg)
 
-### **_Preview_**
+### **Preview**
 
 Once all the video is embedded to the editor, you can preview the final result before saving it.
 
@@ -62,7 +62,7 @@ Once all the video is embedded to the editor, you can preview the final result b
 
 ![preview page](../images/Videos/previewpage.jpg)
 
-## **_Right Side Panel_**
+## **Right Side Panel**
 
 *   Click on Documents
 *   Go to Discussion
@@ -75,7 +75,7 @@ Once all the video is embedded to the editor, you can preview the final result b
 ![featured image](../images/Videos/featuredimage.jpg)
 
 
-## **_Publish_**
+## **Publish**
 
 Once all the content is final:
 
@@ -85,12 +85,12 @@ Once all the content is final:
 ![publish](../images/Videos/publish.jpg)
 
 
-## **_Important Tips_**
+## **Important Tips**
 
 -   Adding videos is similar to making attachments to an email.
 -   There is no requirement to add any text in videos.
 -   All formatting options are available: paragraph, indent, text formatting, heading etc.
--   Do not edit/ touch the two sections shown in the image below:
+-   Do not edit/ make changes to the two sections shown in the image below:
 
 ![do not edit](../images/Videos/donottouch.jpg)
 

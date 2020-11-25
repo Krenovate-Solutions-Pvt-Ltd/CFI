@@ -1,5 +1,6 @@
 site_name: CFI Documentation
 nav:
+  -  Product Templates:  'Product-Templates.md'
   -  Zoom Single Class:  'Zoom-Single-Class.md'
   -  Pre Recorded Class:  'Pre-Recorded-Class.md'
   -  Custom Fitness:
