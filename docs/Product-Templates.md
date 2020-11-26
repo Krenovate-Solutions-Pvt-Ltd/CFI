@@ -16,33 +16,34 @@ Below is the step-by-step guide to create Product Templates.
 
 *   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the credentials.
-
-### **Left Side Panel**
-
--   Go to -> **Product Templates**
+-   Go to -> **Product Templates** on left side panel
 
     ![dashboard](images\Product-Templates\dashboard.jpg)
+
+### **Add New** 
 
 -   Click -> **Add New** to add a new template
 -   Click -> **Edit** to make changes to existing templates
 
     ![add new](images\Product-Templates\addnew.jpg)
 
--   **Add Title** -> Enter a name for the template. Some examples are below:
+### **Add Title** 
 
-    ![add title](images\Product-Templates\addtitle.jpg)
+Enter a name for the template. Some examples are below:
 
-    ![add title1](images\Product-Templates\addtitle1.jpg)
+![add title](images\Product-Templates\addtitle.jpg)
 
-####    **Product Template Workout Details**
+![add title1](images\Product-Templates\addtitle1.jpg)
+
+###    **Product Template Workout Details**
 
 This section is not required for Zoom and Pre-recorded classes. Leave it blank.
 
 ![section na](images\Product-Templates\workoutdetailsna.jpg)
 
-####    **Product Template Session Icons**
+###    **Product Template Session Icons**
 
-Under this section, you can choose upto 8 icons related to the type of workout. These icons are visible inside the program page on the website.
+Session icons are thumbnails representing the main features about respective programs. Under this section, you can choose upto 8 icons related to the type of workout. These icons are visible inside the program page on the website.
 
 Tick the required icons check box.
 
@@ -53,73 +54,104 @@ This is how the selected icons are displayed inside the program page:
 ![session icons1](images\Product-Templates\sessionicons1.jpg)
 
 
-####    **Basic Product Template**
+###    **Basic Product Template**
 
-This section defines the information displayed on the Product cards displayed on the home page.
+The Basic Product Template section defines the information displayed on the Product cards displayed on the home page.
 
-Different Product cards displayed on the homepage:
+Below are examples of various  Product cards displayed on the homepage:
 
 ![productcards](images\Product-Templates\productcards.jpg)
 
-The following fields are required to be filled:
+In order to create the product cards, the following fields are required to be filled:
 
 ![prod template](images\Product-Templates\basicprodtemplate.jpg)
 
--   **Product Name** - This is the name of the Product that will display on the card. Below image shows how the 
--   **Live** - This check box decides whether the class is live or not.
+####    **Product Name**
 
-    -   When check box is ticked: It means it is a live class. A small "live"tab is displayed on the left corner of the card.
+This is the name of the Product that will display on the card. Below image shows how the name appears on the card.
 
-        ![livetab](images\Product-Templates\livetab.jpg)
+![prod name](images\Product-Templates\prodname.jpg)
 
-    -   When check box is not ticked: It means the class is pre-recorded and not live.
 
--   **Product Card Image** - The selected image is displayed on the respective product card. Click -> **Select/Replace Image** to choose an image. This is how the card image si displayed on the homepage:
+####    **Live**  
+
+This check box decides whether the class is live or not.
+
+-   When check box is ticked: It means it is a live class. A small "live" tab is displayed on the left corner of the card.
+
+    ![livetab](images\Product-Templates\livetab.jpg)
+
+-   When check box is not ticked: It means the class is pre-recorded and not live.
+
+####    **Product Card Image** 
+
+The selected image is displayed on the respective product card. 
+
+-   Click -> **Select/Replace Image** to choose an image. This is how the card image is displayed on the homepage:
 
     ![card image](images\Product-Templates\prodcardimage.jpg)
 
--   **Product Description** - This section contains a brief description/text about the respective product. The description is displayed inside the program page. Add text using the content editor.
+####    **Product Description** 
+
+This section contains a brief description/text about the respective product/program. The description is displayed inside the program page. Add text using the content editor.
 
 ![prod desc](images\Product-Templates\proddesc.jpg)
 
-The product description inside the program page:
+The product description as displayed inside the program page:
 
 ![proddesc1](images\Product-Templates\proddesc1.jpg)
 
--   **Product Card Top Tab** - This is the text that is displayed as a small tab on the top of the product card. A maximum of 2 words can be entered. Enter the text in the below field:
+####    **Product Card Top Tab** 
 
-    ![prod card top](images\Product-Templates\prodcardtoptab.jpg)
+This is the text that is displayed as a small tab on the top of the product card. A maximum of 2 words can be entered. Enter the text in the below field:
 
-    The card top tab appears on the homepage as below:
+![prod card top](images\Product-Templates\prodcardtoptab.jpg)
 
-    ![prod card top1](images\Product-Templates\prodcardtoptab1.jpg)
+The card top tab appears on the homepage as below:
 
--   **Product Card Button** - This is the color theme for the card button. Choose the required theme.
+![prod card top1](images\Product-Templates\prodcardtoptab1.jpg)
 
-    ![prod card button](images\Product-Templates\prodcardbutton.jpg)
+####    **Product Card Button** 
 
-    Different button color themes on the homepage:
+This is the color theme for the card button. Choose the required theme.
 
-    ![button themes](images\Product-Templates\buttonthemes.jpg)
+![prod card button](images\Product-Templates\prodcardbutton.jpg)
 
-####    **Product Template Gallery**
+Different button color themes on the homepage:
 
-Under this section, items to be displayed in the template can be defined.
+![button themes](images\Product-Templates\buttonthemes.jpg)
+
+###   **Product Template Gallery**
+
+Under this section, media - images, videos to be displayed in the template can be added.
 
 ![prodtempgallery](images\Product-Templates\prodtempgallery.jpg)
 
--   **Product Template Gallery Items** - Follow below steps to add gallery item fields:
+####    **Product Template Gallery Items** 
 
-    ![gallery item](images\Product-Templates\galleryitem.jpg)
+The below fields are required to be updated to add gallery items:
 
-    -   **Media Type** - Select any one media type : Image/Video. Be sure to add the media type you selected otherwise the media will not be uploaded.
-    -   **Media Type Image** - Select the image to be displayed in the gallery.
-    -   **Media Type Video** - Add the link of the required from Vimeo.
-    -   **Rank** - Enter the rank of the media. The rank decides the position/sequence of the media to be displayed in the gallery.
+![gallery item](images\Product-Templates\galleryitem.jpg)
 
-    This is how the gallery items are displayed inside the program page:
+#####   **Media Type** 
 
-    ![galleryitem1](images\Product-Templates\galleryitem1.jpg)
+Select any one media type : Image/Video. Be sure to add the media type you selected otherwise the media will not be uploaded.
+
+#####   **Media Type Image** 
+
+Select the image to be displayed in the gallery.
+
+#####   **Media Type Video** 
+
+Add the link of the required from Vimeo.
+
+#####   **Rank** 
+
+Enter the rank of the media. The rank decides the position/sequence of the media to be displayed in the gallery.
+
+This is how the gallery items are displayed inside the program page:
+
+![galleryitem1](images\Product-Templates\galleryitem1.jpg)
 
 ##  **Publish/Update**
 
