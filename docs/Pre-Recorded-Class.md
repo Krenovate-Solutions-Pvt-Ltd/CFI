@@ -8,108 +8,120 @@ These are pre-recorded sessions hosted on Vimeo, for which the Crush Fitness Ind
 
 Below is the step-by-step guide to create Pre-Recorded Class.
 
-## **Create Pre Recorded Class**
+## **Create Pre-Recorded Class**
 
 *   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
-
-### **Left Side Panel**
-
 *   Click -> **Pre Recorded Class** 
 
-![pre recorded class](images/Pre-Recorded-Class/prerecordedclass.jpg)
+    ![pre recorded class](images/Pre-Recorded-Class/prerecordedclass.jpg)
 
 *   Click -> **Add new**
 
-![add new](images/Pre-Recorded-Class/addnew.jpg)
+    ![add new](images/Pre-Recorded-Class/addnew.jpg)
 
-*   Add Title -> Enter Name of Class
+##  **Pre-Recorded Class Settings**
+
+
+### **Add Title** 
+
+-   Enter Name of Class
 
 ![add name](images/Pre-Recorded-Class/addname.jpg)
 
-*   Go to -> Recorded Class Details:
+### **Recorded Class Details**
 
-    *   Add Video URL:
+Under this section, following fields need to be edited:
 
-        1.  Go to -> **Vimeo.com**
-        2.  Click on the required video
-        3.  Copy the video link
-        4.  Paste in the Video Url field
+####    **Add Video URL**
+
+Follow the below steps to add a video Url:
+
+1.  Go to -> **Vimeo.com**
+2.  Click on the required video
+3.  Copy the video link
+4.  Paste in the Video Url field
 
     ![vimeo url](images/Pre-Recorded-Class/vimeourl.jpg)
     
-    *   Add Video Duration - **always enter duration in minutes.**
-    *   Enter Start Date/Time
+####    **Add Video Duration** 
+
+-   Enter the video duration in minutes.
+-   This is used to manage for how long can customer stream this video.
+
+####    **Start Date/Time**
+
+*   Enter Start Date/Time for the class.
 
 ![recorded class details](images/Pre-Recorded-Class/recordedclassdetails.jpg)  
 
 
-## **Right Side Panel**
+### **Enable Purchase**
 
-1.  Tick the **Enable Purchase** check box
+-   Tick the **Enable Purchase** check box
 
     ![enable purchase](images/Pre-Recorded-Class/enablepurchase.jpg)
 
-2.  CLick -> **Regular Price** and enter an amount
+### **Regular Price**
+
+-   CLick -> **Regular Price** 
+-   Enter an amount
 
     ![regular price](images/Pre-Recorded-Class/regularprice.jpg)
 
-3.  Click on **Publish**
-
-    ![publish](images/Pre-Recorded-Class/publish.jpg)
-
-4.  Once the meeting is published, a Product id & Product Name is created.
-
-    ![product id](images/Pre-Recorded-Class/productid.jpg)
-
-
-##  **Attaching Template against a Product**
-
-1.  Go to -> the respective class
-2.  Click -> Edit
-
-    ![prerecordprod](images\Pre-Recorded-Class\prerecordprod.jpg)
-
-3.  Go to -> Right Side Panel 
-
 ### **Product Categories** 
 
--   Group Fitness -> Select the Template with the same name to be connected with the product.
+-   Select the Product Template with the same name to be connected with the product.
 
-    ![prod cat](images\Zoom\prodcat.jpg)
+![prod cat](images\Pre-Recorded-Class\prodcat.jpg)
 
 **Note** - **Do not select the Parent Category here**
 
-### **WooCommerce Integration** 
+### **Publish**
 
--   Click -> **Product Id#** - you will be directed to the edit product page.
+-   Click on **Publish**
 
-    ![prodid](images\Zoom\prodid.jpg)
+    ![publish](images/Pre-Recorded-Class/publish.jpg)
 
-####    **_Left Side Panel_ - Visibility** 
+-   Once the meeting is published, a Product id & Product Name is created.
+
+    ![product id](images/Pre-Recorded-Class/productid.jpg)
+
+-   Click -> **Product Id#** - This will direct you to the product page.
+
+![prodid](images\Zoom\prodid.jpg)
+
+##  **Product Page**
+
+Once you are on the Product Page, edit the following fields:
+
+###   **Visibility** 
 
 - Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
 
     ![visibility](images\Zoom\visibility.jpg)
 
-####    **_Left Side Panel_ - Product Template**
+###    **Product Categories**
 
-This is the last section located at the bottom of the page. Follow below steps:
+-   Select **only** the Parent Category (Group Fitness) here.
 
+    ![prodcat1](images\Zoom\prodcat1.jpg)
+
+###    **Product Template**
+
+This is the last section located at the bottom of the page. This allows the integration between the Product/class and the product template. Follow below steps:
+
+-   Go to -> **Product Template**
 -   Click -> **Connect existing Product Template**
 -   From the list select the corresponding template.
 
 ![prod template](images\Zoom\prodtemplate.jpg)
 
-####    **_Right Side Panel_ - Product Categories**
 
--   Select **only** the Parent Category here.
 
-    ![prodcat1](images\Zoom\prodcat1.jpg)
+## **Update**
 
-## **Publish/Update**
-
-*   Click Update to save the changes.
+*   Click **Update** to save the changes.
 
 ![update](images\Zoom\update.jpg)
 
