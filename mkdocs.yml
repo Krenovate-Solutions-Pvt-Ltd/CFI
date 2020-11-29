@@ -1,13 +1,14 @@
 site_name: CFI Documentation
 nav:
+  -  Product Category:  'Product-Category.md'
   -  Product Templates:  'Product-Templates.md'
   -  Zoom Single Class:  'Zoom-Single-Class.md'
   -  Pre Recorded Class:  'Pre-Recorded-Class.md'
   -  Custom Fitness:
       -  Lectures:  'Custom-Fitness/Lectures.md'
-      -  Videos:  'Custom-Fitness/Videos.md'
       -  Program Section:  'Custom-Fitness/Program-Section.md'
       -  Custom Fitness Program:  'Custom-Fitness/Custom-Fitness-Program.md'
+  -  Subscriptions:  'Subscriptions.md'
 theme:
   name: material
   features:

@@ -39,7 +39,6 @@ In this manual we will cover step-by-step instructions for the below tasks:
 *   [**Zoom Single Class**](Zoom-Single-Class.md)
 *   [**Pre Recorded Class**](Pre-Recorded-Class.md)
 *   [**Lessons/Lectures**](Custom-Fitness/Lectures.md)
-*   [**Videos**](Custom-Fitness/Videos.md)
 *   [**Program Sections**](Custom-Fitness/Program-Section.md)
 *   [**Custom Fitness Programs**](Custom-Fitness/Custom-Fitness-Program.md)
 *   Category Creation

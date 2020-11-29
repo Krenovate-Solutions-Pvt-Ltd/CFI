@@ -10,51 +10,70 @@ Below is the step-by-step guide to create Zoom Classes.
 
 *   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
 *   Login with the given credentials.
-
-### **Left Side Panel**
-
 *   Click -> **Zoom Meeting** 
 
 ![meeting](images/Zoom/zoommeeting.jpg)
 
-*   Click -> **Add new**
+### **Add New**
+
+-   Click -> **Add New** to create a new class
 
 ![add new](images/Zoom/zoomadd.jpg)
 
-*   Add Title -> Enter Name of Class 
+##  **Zoom Meeting Settings**
+
+The following fields should be populated/edited for a Zoom meeting:
+
+### **Add Title** 
+
+-   Enter Name of Class 
 
 ![add name](images/Zoom/zoomname.jpg)
 
-*   Enter Start Date & Time
-*   Enter Duration
+### **Start Date/Time**
+
+*   Enter Start Date & Time. Date format used: yyyy-mm-dd
+
+### **Duration**
+
+*   Enter the meetng Duration in minutes.
+
+### **Password**
+
 *   Enter Password to join meeting
 
 ![details](images/Zoom/zoomdetails.jpg)
 
-*   Check mark the below options:
+### **Options to Select/tick mark**
 
-    *   Join Before Host
-    *   Participant Video
-    *   Mute Participants Upon Entry
+Tick the check boxes for the below options:
+
+*   Join Before Host
+*   Participant Video
+*   Mute Participants Upon Entry
 
 ![options](images/Zoom/tickoptions.jpg)
 
-### **Right Side Panel**
-
-Options to be edited on the right side panel are discussed below:
-
--   Go to -> **Category**
--   It should be marked as "**Group**"
-
-![category](images/Zoom/category.jpg)
+### **Enable Purchase**
 
 *   Tick the **Enable Purchase** check box
 
 ![enable purchase](images/Zoom/enablepurchase.jpg)
 
-*   Click on **Regular Price** and enter an amoumt
+### **Regular Price**
+
+*   Click on **Regular Price** 
+*   Enter an amoumt
 
 ![price](images/Zoom/regularprice.jpg)
+
+### **Product Categories** 
+
+-   Select the Product Template with the same name to be connected with the product.
+
+    ![prod cat](images\Zoom\prodcat.jpg)
+
+**Note** - **Do not select the Parent Category here**
 
 *   Click on **Publish**
 
@@ -64,55 +83,43 @@ Options to be edited on the right side panel are discussed below:
 
 ![product id](images/Zoom/productid.jpg)
 
-
-
-##  **Attaching Template against a Product**
-
-1.  Go to -> the respective class
-2.  Click -> Edit
-
-    ![zoomprod](images\Zoom\zoomprod.jpg)
-
-3.  Go to -> Right Side Panel 
-
-### **Product Categories** 
-
--   Group Fitness -> Select the Template with the same name to be connected with the product.
-
-    ![prod cat](images\Zoom\prodcat.jpg)
-
-**Note** - **Do not select the Parent Category here**
-
-### **WooCommerce Integration** 
-
--   Click -> **Product Id#** - you will be directed to the edit product page.
+-   Click -> **Product Id#** - you will be directed to the product page.
 
     ![prodid](images\Zoom\prodid.jpg)
 
-####    **_Left Side Panel_ - Visibility** 
+##  **Product Page**
 
-- Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
+Once on the product page, the following options need to be edited:
+
+###    **Visibility** 
+
+-   Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
 
     ![visibility](images\Zoom\visibility.jpg)
 
-####    **_Left Side Panel_ - Product Template**
 
-This is the last section located at the bottom of the page. Follow below steps:
+###    **Product Categories**
 
+-   Go to -> **Product Categories** on right side panel
+-   Select **only** the Parent Category (Group Fitness) here.
+
+    ![prodcat1](images\Zoom\prodcat1.jpg)
+
+
+###    **Product Template**
+
+This is the last section located at the bottom of the page. It allows the integration between a Product/Class and product template. Follow below steps:
+
+-   Go to -> **Product Template**
 -   Click -> **Connect existing Product Template**
 -   From the list select the corresponding template.
 
 ![prod template](images\Zoom\prodtemplate.jpg)
 
-####    **_Right Side Panel_ - Product Categories**
 
--   Select **only** the Parent Category here.
+## **Update**
 
-    ![prodcat1](images\Zoom\prodcat1.jpg)
-
-## **Publish/Update**
-
-*   Click Update to save the changes.
+*   Click **Update** to save the changes.
 
 ![update](images\Zoom\update.jpg)
 
