@@ -1,0 +1,1125 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>Simple Product - CFI Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b5d04df8.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9ab2c1f8.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#simple-product" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="CFI Documentation" class="md-header-nav__button md-logo" aria-label="CFI Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            CFI Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Simple Product
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CFI Documentation" class="md-nav__button md-logo" aria-label="CFI Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    CFI Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Product-Category/" title="Product Category" class="md-nav__link">
+      Product Category
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Product-Templates/" title="Product Templates" class="md-nav__link">
+      Product Templates
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Zoom-Single-Class/" title="Zoom Single Class" class="md-nav__link">
+      Zoom Single Class
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Pre-Recorded-Class/" title="Pre Recorded Class" class="md-nav__link">
+      Pre Recorded Class
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Custom Fitness
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Custom Fitness" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Custom Fitness
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Custom-Fitness/Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Custom-Fitness/Lectures/" title="Lectures" class="md-nav__link">
+      Lectures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Custom-Fitness/Program-Section/" title="Program Section" class="md-nav__link">
+      Program Section
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Custom-Fitness/Custom-Fitness-Program/" title="Custom Fitness Program" class="md-nav__link">
+      Custom Fitness Program
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Goal Based Fitness Plan
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Goal Based Fitness Plan" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Goal Based Fitness Plan
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GB-Lectures/" title="Lectures" class="md-nav__link">
+      Lectures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GB-Program-Section/" title="Program Section" class="md-nav__link">
+      Program Section
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Simple Product
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Simple Product" class="md-nav__link md-nav__link--active">
+      Simple Product
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-simple-product" class="md-nav__link">
+    Create Simple Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-product-settings" class="md-nav__link">
+    Simple Product Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Simple Product Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-title" class="md-nav__link">
+    Add Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gallery" class="md-nav__link">
+    Gallery
+  </a>
+  
+    <nav class="md-nav" aria-label="Gallery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gallery-items" class="md-nav__link">
+    Gallery Items
+  </a>
+  
+    <nav class="md-nav" aria-label="Gallery Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#media-type" class="md-nav__link">
+    Media Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#media-type-image" class="md-nav__link">
+    Media Type Image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#media-type-video" class="md-nav__link">
+    Media Type Video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rank" class="md-nav__link">
+    Rank
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibility" class="md-nav__link">
+    Visibility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-data" class="md-nav__link">
+    Product Data
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-tab" class="md-nav__link">
+    General Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="General Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regular-price" class="md-nav__link">
+    Regular Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sale-price" class="md-nav__link">
+    Sale Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-class" class="md-nav__link">
+    Tax Class
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inventory-tab" class="md-nav__link">
+    Inventory tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Inventory tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sold-individually" class="md-nav__link">
+    Sold Individually
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-short-description-na" class="md-nav__link">
+    Product Short Description - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviews-na" class="md-nav__link">
+    Reviews -NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#woocommerce-views-filter-fields-na" class="md-nav__link">
+    WooCommerce Views Filter fields -NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features-na" class="md-nav__link">
+    Features - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#products-trainer-products" class="md-nav__link">
+    Products Trainer Products
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-template" class="md-nav__link">
+    Product Template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-categories" class="md-nav__link">
+    Product Categories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishupdate" class="md-nav__link">
+    Publish/Update
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Single-Subscription/" title="Single Subscription" class="md-nav__link">
+      Single Subscription
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Group-Subscription/" title="Group Subscription" class="md-nav__link">
+      Group Subscription
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-simple-product" class="md-nav__link">
+    Create Simple Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simple-product-settings" class="md-nav__link">
+    Simple Product Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Simple Product Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-title" class="md-nav__link">
+    Add Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gallery" class="md-nav__link">
+    Gallery
+  </a>
+  
+    <nav class="md-nav" aria-label="Gallery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gallery-items" class="md-nav__link">
+    Gallery Items
+  </a>
+  
+    <nav class="md-nav" aria-label="Gallery Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#media-type" class="md-nav__link">
+    Media Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#media-type-image" class="md-nav__link">
+    Media Type Image
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#media-type-video" class="md-nav__link">
+    Media Type Video
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rank" class="md-nav__link">
+    Rank
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibility" class="md-nav__link">
+    Visibility
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-data" class="md-nav__link">
+    Product Data
+  </a>
+  
+    <nav class="md-nav" aria-label="Product Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-tab" class="md-nav__link">
+    General Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="General Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regular-price" class="md-nav__link">
+    Regular Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sale-price" class="md-nav__link">
+    Sale Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-class" class="md-nav__link">
+    Tax Class
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inventory-tab" class="md-nav__link">
+    Inventory tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Inventory tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sold-individually" class="md-nav__link">
+    Sold Individually
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-short-description-na" class="md-nav__link">
+    Product Short Description - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reviews-na" class="md-nav__link">
+    Reviews -NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#woocommerce-views-filter-fields-na" class="md-nav__link">
+    WooCommerce Views Filter fields -NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#features-na" class="md-nav__link">
+    Features - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#products-trainer-products" class="md-nav__link">
+    Products Trainer Products
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-template" class="md-nav__link">
+    Product Template
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#product-categories" class="md-nav__link">
+    Product Categories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publishupdate" class="md-nav__link">
+    Publish/Update
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="simple-product"><strong>Simple Product</strong><a class="headerlink" href="#simple-product" title="Permanent link">&para;</a></h1>
+<p>To create a Goal-Based Fitness Plan, a Simple Product is created. In this section, we will see steps to do the same.</p>
+<h2 id="create-simple-product"><strong>Create Simple Product</strong><a class="headerlink" href="#create-simple-product" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to <strong>online.crushfitnessindia.com</strong></a></li>
+<li>Login with the credentials.</li>
+<li>Go to -&gt; <strong>Products</strong> tab on left side panel</li>
+<li>
+<p>Click -&gt; <strong>Add New</strong></p>
+<p><img alt="add new" src="../../images/GB-Simple-Product/addnew.jpg" /></p>
+</li>
+</ul>
+<h2 id="simple-product-settings"><strong>Simple Product Settings</strong><a class="headerlink" href="#simple-product-settings" title="Permanent link">&para;</a></h2>
+<p>The below fields will help in creating the required Product:</p>
+<h3 id="add-title"><strong>Add Title</strong><a class="headerlink" href="#add-title" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Enter a name for the Product. Few examples are below:</li>
+</ul>
+<p><img alt="title" src="../../images/GB-Simple-Product/title.jpg" /></p>
+<h3 id="description"><strong>Description</strong><a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Add a brief text/description about the product.</p>
+<p><img alt="desc" src="../../images/GB-Simple-Product/desc.jpg" /></p>
+</li>
+</ul>
+<h3 id="gallery"><strong>Gallery</strong><a class="headerlink" href="#gallery" title="Permanent link">&para;</a></h3>
+<p>In this section add media - videos/images that would display on the product page. </p>
+<p><img alt="gallery" src="../../images/GB-Simple-Product/gallery.jpg" /></p>
+<h4 id="gallery-items"><strong>Gallery Items</strong><a class="headerlink" href="#gallery-items" title="Permanent link">&para;</a></h4>
+<p>The following fields should be edited to add gallery items:</p>
+<p><img alt="gallery items" src="../../images/GB-Simple-Product/galleryitems.jpg" /></p>
+<h5 id="media-type"><strong>Media Type</strong><a class="headerlink" href="#media-type" title="Permanent link">&para;</a></h5>
+<p>Select any one media type at a time : Image/Video. Be sure to add the media type you selected otherwise the media will not be uploaded.</p>
+<h5 id="media-type-image"><strong>Media Type Image</strong><a class="headerlink" href="#media-type-image" title="Permanent link">&para;</a></h5>
+<p>Select the image to be displayed in the gallery in case media type = Image.</p>
+<h5 id="media-type-video"><strong>Media Type Video</strong><a class="headerlink" href="#media-type-video" title="Permanent link">&para;</a></h5>
+<p>Add the Vimeo link in case the media type = Video</p>
+<h5 id="rank"><strong>Rank</strong><a class="headerlink" href="#rank" title="Permanent link">&para;</a></h5>
+<p>Enter the rank of the media. The rank decides the position/sequence of the media to be displayed in the gallery.</p>
+<h3 id="visibility"><strong>Visibility</strong><a class="headerlink" href="#visibility" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Tick <img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /> the Homepage Visibility check box to enable.</p>
+<p><img alt="visibility" src="../../images/GB-Simple-Product/visibility.jpg" /></p>
+</li>
+</ul>
+<h3 id="product-data"><strong>Product Data</strong><a class="headerlink" href="#product-data" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Select <img alt="➡" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/27a1.svg" title=":arrow_right:" /> <strong>Product Type</strong> <img alt="➡" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/27a1.svg" title=":arrow_right:" /> <strong>Simple Product</strong> always</li>
+<li>Tick <img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /> the <strong>Virtual</strong> check box</li>
+</ul>
+<p><img alt="prod data" src="../../images/GB-Simple-Product/proddata.jpg" /></p>
+<h4 id="general-tab"><strong>General Tab</strong><a class="headerlink" href="#general-tab" title="Permanent link">&para;</a></h4>
+<p>The following fields need to be edited:</p>
+<p><img alt="general" src="../../images/GB-Simple-Product/general.jpg" /></p>
+<h5 id="regular-price"><strong>Regular Price</strong><a class="headerlink" href="#regular-price" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Enter the regular price for the product.</li>
+</ul>
+<h5 id="sale-price"><strong>Sale Price</strong><a class="headerlink" href="#sale-price" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Enter the amount after applying discount, if applicable. Use <strong>Schedule to enter a Start and End Date.</strong></li>
+</ul>
+<h5 id="tax-status"><strong>Tax Status</strong><a class="headerlink" href="#tax-status" title="Permanent link">&para;</a></h5>
+<ul>
+<li>By default, choose <strong>"Taxable"</strong> always.</li>
+</ul>
+<h5 id="tax-class"><strong>Tax Class</strong><a class="headerlink" href="#tax-class" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Default value for this field should be <strong>"Standard"</strong> always.</li>
+</ul>
+<h4 id="inventory-tab"><strong>Inventory tab</strong><a class="headerlink" href="#inventory-tab" title="Permanent link">&para;</a></h4>
+<p>Edit the below field:</p>
+<h5 id="sold-individually"><strong>Sold Individually</strong><a class="headerlink" href="#sold-individually" title="Permanent link">&para;</a></h5>
+<ul>
+<li>
+<p>Tick <img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /> the check box to enable this option. It should be <strong>always enabled</strong>.</p>
+<p><img alt="inventory" src="images\GB-Simple-Product\inventory.jpg" /></p>
+</li>
+</ul>
+<h3 id="product-short-description-na"><strong>Product Short Description - NA</strong><a class="headerlink" href="#product-short-description-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required. Leave it blank.</p>
+<h3 id="reviews-na"><strong>Reviews -NA</strong><a class="headerlink" href="#reviews-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required. Leave it blank.</p>
+<h3 id="woocommerce-views-filter-fields-na"><strong>WooCommerce Views Filter fields -NA</strong><a class="headerlink" href="#woocommerce-views-filter-fields-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required. Leave it blank.</p>
+<h3 id="features-na"><strong>Features - NA</strong><a class="headerlink" href="#features-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required. Leave it blank.</p>
+<p><img alt="no change fields" src="../../images/GB-Simple-Product/nochangefields.jpg" /></p>
+<h3 id="products-trainer-products"><strong>Products Trainer Products</strong><a class="headerlink" href="#products-trainer-products" title="Permanent link">&para;</a></h3>
+<p>This field allows to add/connect trainers to the product. Follow the below steps:</p>
+<ol>
+<li>Click <img alt="👉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f449.svg" title=":point_right:" /> <strong>Connect existing Trainer product</strong></li>
+<li>Select trainer from list</li>
+</ol>
+<p><img alt="add trainer" src="../../images/GB-Simple-Product/addtrainer.jpg" /></p>
+<h3 id="product-template"><strong>Product Template</strong><a class="headerlink" href="#product-template" title="Permanent link">&para;</a></h3>
+<p>Do not make any changes to this field. </p>
+<p><img alt="no change" src="../../images/GB-Simple-Product/prodtemplatenochange.jpg" /></p>
+<h3 id="product-categories"><strong>Product Categories</strong><a class="headerlink" href="#product-categories" title="Permanent link">&para;</a></h3>
+<p>In the Product Categories tab, choose the category you want to include in this product. Once you choose the category, all the Program Sections linked to this category will be assigned to the product. </p>
+<blockquote>
+<p>This is a <strong>very important step</strong> - the category is the <strong>key link</strong> for linking the correct program sections to the plan/product.</p>
+</blockquote>
+<p>Follow the below steps:</p>
+<ol>
+<li>Go to -&gt; <strong>Product Categories</strong></li>
+<li>Select the parent category -&gt; <strong>Group Fitness</strong></li>
+<li>Choose only the respective sub-category with the product name.</li>
+</ol>
+<p><img alt="prod cat" src="../../images/GB-Simple-Product/prodcat.jpg" /></p>
+<blockquote>
+<p><img alt="📝" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4dd.svg" title=":memo:" /> <strong>Note - If the required category is not available in the list, refer here to <a href="Product-Category.md"><strong>Add New Category</strong></a></strong></p>
+</blockquote>
+<h2 id="publishupdate"><strong>Publish/Update</strong><a class="headerlink" href="#publishupdate" title="Permanent link">&para;</a></h2>
+<p>Click on <strong>Update</strong> to save all the changes.</p>
+<p><img alt="publish" src="../../images/GB-Simple-Product/publish.jpg" /></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 3, 2020</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../GB-Program-Section/" title="Program Section" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Program Section
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../Single-Subscription/" title="Single Subscription" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Single Subscription
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
