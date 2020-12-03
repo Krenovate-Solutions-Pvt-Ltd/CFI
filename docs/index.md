@@ -35,14 +35,19 @@ The Admin manual has been created for the Admin team of Crush Fitness India. The
 In this manual we will cover step-by-step instructions for the below tasks:
 
 
+*   [**Product Category**](Product-Category.md)
 *   [**Product Templates**](Product-Templates.md)
 *   [**Zoom Single Class**](Zoom-Single-Class.md)
 *   [**Pre Recorded Class**](Pre-Recorded-Class.md)
-*   [**Lessons/Lectures**](Custom-Fitness/Lectures.md)
-*   [**Program Sections**](Custom-Fitness/Program-Section.md)
-*   [**Custom Fitness Programs**](Custom-Fitness/Custom-Fitness-Program.md)
-*   Category Creation
-*   Order Details
-*   Customer Details
-*   Customer Questionnaires
-*   FAQs
+*   [**Custom Fitness**](Custom-Fitness\Introduction.md)
+
+    *   [**Lessons/Lectures**](Custom-Fitness/Lectures.md)
+    *   [**Program Sections**](Custom-Fitness/Program-Section.md)
+    *   [**Custom Fitness Programs**](Custom-Fitness/Custom-Fitness-Program.md)
+*   [**Single Subscription**](Single-Subscription.md)
+*   [**Group Subscription**](Group-Subscription.md)
+*   [**Goal Based Fitness Plan**](Goal-Based-Fitness-Plan\Introduction.md)
+
+    *   [**Lectures**](Goal-Based-Fitness-Plan\Lectures.md)
+    *   [**Program Section**](Goal-Based-Fitness-Plan\Program-Section.md)
+    *   [**Simple Product**](Goal-Based-Fitness-Plan\Simple-Product.md)

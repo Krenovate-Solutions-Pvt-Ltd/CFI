@@ -5,10 +5,17 @@ nav:
   -  Zoom Single Class:  'Zoom-Single-Class.md'
   -  Pre Recorded Class:  'Pre-Recorded-Class.md'
   -  Custom Fitness:
+      -  Introduction:  'Custom-Fitness/Introduction.md'
       -  Lectures:  'Custom-Fitness/Lectures.md'
       -  Program Section:  'Custom-Fitness/Program-Section.md'
       -  Custom Fitness Program:  'Custom-Fitness/Custom-Fitness-Program.md'
-  -  Subscriptions:  'Subscriptions.md'
+  -  Goal Based Fitness Plan:
+      -  Introduction:  'Goal-Based-Fitness-Plan/Introduction.md'
+      -  Lectures:  'Goal-Based-Fitness-Plan/GB-Lectures.md'
+      -  Program Section:  'Goal-Based-Fitness-Plan/GB-Program-Section.md'
+      -  Simple Product:  'Goal-Based-Fitness-Plan/GB-Simple-Product.md'
+  -  Single Subscription:  'Single-Subscription.md'
+  -  Group Subscription:  'Group-Subscription.md'
 theme:
   name: material
   features:

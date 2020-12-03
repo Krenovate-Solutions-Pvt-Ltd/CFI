@@ -27,6 +27,8 @@ Below is the step-by-step guide to create Product Templates.
 
     ![add new](images\Product-Templates\addnew.jpg)
 
+##  **Product Template Settings**
+
 ### **Add Title** 
 
 Enter a name for the template. Some examples are below:
@@ -45,11 +47,11 @@ This section is not required for Zoom and Pre-recorded classes. Leave it blank.
 
 Session icons are thumbnails representing the main features about respective programs. Under this section, you can choose upto 8 icons related to the type of workout. These icons are visible inside the program page on the website.
 
-Tick the required icons check box.
+-   Tick :white_check_mark: the required icons check box.
 
-![session icons](images\Product-Templates\sessionicons.jpg)
+    ![session icons](images\Product-Templates\sessionicons.jpg)
 
-This is how the selected icons are displayed inside the program page:
+**Frontend Look** : This is how the selected icons are displayed inside the program page:
 
 ![session icons1](images\Product-Templates\sessionicons1.jpg)
 
