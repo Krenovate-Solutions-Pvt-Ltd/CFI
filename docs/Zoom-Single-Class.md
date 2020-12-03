@@ -8,17 +8,17 @@ Below is the step-by-step guide to create Zoom Classes.
 
 ## **Create Zoom meeting**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
-*   Login with the given credentials.
+*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to **online.crushfitnessindia.com**</a>
+*   Login with the credentials.
 *   Click -> **Zoom Meeting** 
 
-![meeting](images/Zoom/zoommeeting.jpg)
+    ![meeting](images/Zoom/zoommeeting.jpg)
 
 ### **Add New**
 
 -   Click -> **Add New** to create a new class
 
-![add new](images/Zoom/zoomadd.jpg)
+    ![add new](images/Zoom/zoomadd.jpg)
 
 ##  **Zoom Meeting Settings**
 
@@ -28,7 +28,7 @@ The following fields should be populated/edited for a Zoom meeting:
 
 -   Enter Name of Class 
 
-![add name](images/Zoom/zoomname.jpg)
+    ![add name](images/Zoom/zoomname.jpg)
 
 ### **Start Date/Time**
 
@@ -46,7 +46,7 @@ The following fields should be populated/edited for a Zoom meeting:
 
 ### **Options to Select/tick mark**
 
-Tick the check boxes for the below options:
+Tick :white_check_mark: the check boxes for the below options:
 
 *   Join Before Host
 *   Participant Video
@@ -56,32 +56,37 @@ Tick the check boxes for the below options:
 
 ### **Enable Purchase**
 
-*   Tick the **Enable Purchase** check box
+*   Go to -> **WooCommerce Integration** on right side panel   
+*   Tick :white_check_mark: the **Enable Purchase** check box
 
-![enable purchase](images/Zoom/enablepurchase.jpg)
+    ![enable purchase](images/Zoom/enablepurchase.jpg)
 
 ### **Regular Price**
 
+*   Go to -> **WooCommerce Integration** on right side panel    
 *   Click on **Regular Price** 
 *   Enter an amoumt
 
-![price](images/Zoom/regularprice.jpg)
+    ![price](images/Zoom/regularprice.jpg)
 
 ### **Product Categories** 
 
--   Select the Product Template with the same name to be connected with the product.
+-   Go to -> **Product Categories** on right side panel
+-   Select :white_check_mark: the Product Template with the same name to be connected with the product.
 
     ![prod cat](images\Zoom\prodcat.jpg)
 
-**Note** - **Do not select the Parent Category here**
+:memo: **Note** - **Do not select the Parent Category here**
 
-*   Click on **Publish**
+### **Publish**
 
-![publish](images/Zoom/publish.jpg)
+*   Click on **Publish** to save the changes
+
+    ![publish](images/Zoom/publish.jpg)
 
 *   Once the meeting is published, a **Product id** is created. 
 
-![product id](images/Zoom/productid.jpg)
+    ![product id](images/Zoom/productid.jpg)
 
 -   Click -> **Product Id#** - you will be directed to the product page.
 
@@ -89,11 +94,11 @@ Tick the check boxes for the below options:
 
 ##  **Product Page**
 
-Once on the product page, the following options need to be edited:
+On the product page, the following options need to be edited:
 
 ###    **Visibility** 
 
--   Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
+-   Tick :white_check_mark: the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
 
     ![visibility](images\Zoom\visibility.jpg)
 
@@ -101,7 +106,7 @@ Once on the product page, the following options need to be edited:
 ###    **Product Categories**
 
 -   Go to -> **Product Categories** on right side panel
--   Select **only** the Parent Category (Group Fitness) here.
+-   Select :white_check_mark: **only** the Parent Category (Group Fitness) here.
 
     ![prodcat1](images\Zoom\prodcat1.jpg)
 
@@ -110,18 +115,20 @@ Once on the product page, the following options need to be edited:
 
 This is the last section located at the bottom of the page. It allows the integration between a Product/Class and product template. Follow below steps:
 
+####    **Connect Existing Product Template**
+
 -   Go to -> **Product Template**
 -   Click -> **Connect existing Product Template**
 -   From the list select the corresponding template.
 
-![prod template](images\Zoom\prodtemplate.jpg)
+    ![prod template](images\Zoom\prodtemplate.jpg)
 
 
 ## **Update**
 
 *   Click **Update** to save the changes.
 
-![update](images\Zoom\update.jpg)
+    ![update](images\Zoom\update.jpg)
 
 
 ## **Note**

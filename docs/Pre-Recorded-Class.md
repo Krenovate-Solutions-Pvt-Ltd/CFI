@@ -11,10 +11,12 @@ Below is the step-by-step guide to create Pre-Recorded Class.
 ## **Create Pre-Recorded Class**
 
 *   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
-*   Login with the given credentials.
+*   Login with the credentials.
 *   Click -> **Pre Recorded Class** 
 
     ![pre recorded class](images/Pre-Recorded-Class/prerecordedclass.jpg)
+
+### **Add New**
 
 *   Click -> **Add new**
 
@@ -22,18 +24,19 @@ Below is the step-by-step guide to create Pre-Recorded Class.
 
 ##  **Pre-Recorded Class Settings**
 
+Follow the below instructions to set up the class:
 
 ### **Add Title** 
 
 -   Enter Name of Class
 
-![add name](images/Pre-Recorded-Class/addname.jpg)
+    ![add name](images/Pre-Recorded-Class/addname.jpg)
 
 ### **Recorded Class Details**
 
 Under this section, following fields need to be edited:
 
-####    **Add Video URL**
+####    **Video URL**
 
 Follow the below steps to add a video Url:
 
@@ -44,26 +47,28 @@ Follow the below steps to add a video Url:
 
     ![vimeo url](images/Pre-Recorded-Class/vimeourl.jpg)
     
-####    **Add Video Duration** 
+####    **Video Duration** 
 
 -   Enter the video duration in minutes.
--   This is used to manage for how long can customer stream this video.
+-   This is used to manage for how long can a customer stream this video.
 
 ####    **Start Date/Time**
 
 *   Enter Start Date/Time for the class.
 
-![recorded class details](images/Pre-Recorded-Class/recordedclassdetails.jpg)  
+    ![recorded class details](images/Pre-Recorded-Class/recordedclassdetails.jpg)  
 
 
 ### **Enable Purchase**
 
--   Tick the **Enable Purchase** check box
+-   Go to -> **WooCommerce Integration** on right side panel
+-   Tick :white_check_mark: the **Enable Purchase** check box
 
     ![enable purchase](images/Pre-Recorded-Class/enablepurchase.jpg)
 
 ### **Regular Price**
 
+-   Go to -> **WooCommerce Integration** on right side panel   
 -   CLick -> **Regular Price** 
 -   Enter an amount
 
@@ -71,15 +76,16 @@ Follow the below steps to add a video Url:
 
 ### **Product Categories** 
 
--   Select the Product Template with the same name to be connected with the product.
+-   Go to -> **Product Categories**
+-   Select :white_check_mark: the Product Template with the same name to be connected with the product.
 
-![prod cat](images\Pre-Recorded-Class\prodcat.jpg)
+    ![prod cat](images\Pre-Recorded-Class\prodcat.jpg)
 
 **Note** - **Do not select the Parent Category here**
 
 ### **Publish**
 
--   Click on **Publish**
+-   Click on **Publish** to save the changes.
 
     ![publish](images/Pre-Recorded-Class/publish.jpg)
 
@@ -89,21 +95,22 @@ Follow the below steps to add a video Url:
 
 -   Click -> **Product Id#** - This will direct you to the product page.
 
-![prodid](images\Zoom\prodid.jpg)
+    ![prodid](images\Zoom\prodid.jpg)
 
 ##  **Product Page**
 
-Once you are on the Product Page, edit the following fields:
+On the Product Page, edit the following fields:
 
 ###   **Visibility** 
 
-- Tick the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
+- Tick :white_check_mark: the check box to enable Homepage Visibility. This is a very **important and mandatory** step.
 
     ![visibility](images\Zoom\visibility.jpg)
 
 ###    **Product Categories**
 
--   Select **only** the Parent Category (Group Fitness) here.
+-   Go to -> **Product Categories** on right side panel
+-   Select :white_check_mark: **only** the Parent Category (Group Fitness) here.
 
     ![prodcat1](images\Zoom\prodcat1.jpg)
 
@@ -111,11 +118,13 @@ Once you are on the Product Page, edit the following fields:
 
 This is the last section located at the bottom of the page. This allows the integration between the Product/class and the product template. Follow below steps:
 
+####    **Connect Existing Product Template**
+
 -   Go to -> **Product Template**
 -   Click -> **Connect existing Product Template**
 -   From the list select the corresponding template.
 
-![prod template](images\Zoom\prodtemplate.jpg)
+    ![prod template](images\Zoom\prodtemplate.jpg)
 
 
 
@@ -123,7 +132,7 @@ This is the last section located at the bottom of the page. This allows the inte
 
 *   Click **Update** to save the changes.
 
-![update](images\Zoom\update.jpg)
+    ![update](images\Zoom\update.jpg)
 
 
 

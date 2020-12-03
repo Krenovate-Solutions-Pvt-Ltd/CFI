@@ -9,7 +9,7 @@ Key features about Product Category:
 -   A category gives the opportunity to group products easily. A parent category can have multiple sub-categories.
 -   Each category and/or subcategory is like a folder that contains:
     -   A list of products inside
-    -   Other folders inside (subcategories)
+    -   Other folders inside (sub-categories)
     -   Both a list of products and other folders inside
 -   A product category is the key link in setting up programs/classes and further features.
 -   Products/classes are placed "inside" categories, and customers can browse through each category to find products of interest.
@@ -21,6 +21,19 @@ A sample of a parent category and its sub-categories is shown below:
 ![sample categories](images\Product-Category\samplecategories.jpg)
 
 >   Note: If for a certain class/program, category is not chosen, then it will show as uncategorised.
+
+### **How Different Categories Function**
+
+Let's understand the function of categories at CFI.
+
+At CFI, there are 3 main cateogries offered, namely:
+
+-   Goal Based Fitness Plans
+-   1-on-1 Personal Training
+-   Group Fitness
+
+Each of these are have different Parent and sub-categories.
+
 
 
 In this section, we will see how to add a new category.
