@@ -1,0 +1,1213 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>Lectures - CFI Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b5d04df8.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9ab2c1f8.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lectures" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="CFI Documentation" class="md-header-nav__button md-logo" aria-label="CFI Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            CFI Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Lectures
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CFI Documentation" class="md-nav__button md-logo" aria-label="CFI Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    CFI Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Product-Category/" title="Product Category" class="md-nav__link">
+      Product Category
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Product-Templates/" title="Product Templates" class="md-nav__link">
+      Product Templates
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Zoom-Single-Class/" title="Zoom Single Class" class="md-nav__link">
+      Zoom Single Class
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Pre-Recorded-Class/" title="Pre Recorded Class" class="md-nav__link">
+      Pre Recorded Class
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Custom Fitness Programs
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Custom Fitness Programs" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Custom Fitness Programs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Lectures
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Lectures" class="md-nav__link md-nav__link--active">
+      Lectures
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-lectures" class="md-nav__link">
+    Create Lectures
+  </a>
+  
+    <nav class="md-nav" aria-label="Create Lectures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-new" class="md-nav__link">
+    Add New
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-settings" class="md-nav__link">
+    Lecture Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Lecture Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-title" class="md-nav__link">
+    Add Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-editor" class="md-nav__link">
+    Content Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-available" class="md-nav__link">
+    Tools Available
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools Available">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#change-block-typestyle" class="md-nav__link">
+    Change Block Type/Style
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-text-alignment" class="md-nav__link">
+    Change Text Alignment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#highlight-color" class="md-nav__link">
+    Highlight Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-link" class="md-nav__link">
+    Add Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-controls" class="md-nav__link">
+    Text Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-options" class="md-nav__link">
+    More Options
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-block" class="md-nav__link">
+    Add Block
+  </a>
+  
+    <nav class="md-nav" aria-label="Add Block">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-used" class="md-nav__link">
+    Most Used
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commom-blocks" class="md-nav__link">
+    Commom Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embeds" class="md-nav__link">
+    Embeds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documents-tab" class="md-nav__link">
+    Documents Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Documents Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#featured-image" class="md-nav__link">
+    Featured Image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish" class="md-nav__link">
+    Publish
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-tips" class="md-nav__link">
+    Important Tips
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-not-edit-sections" class="md-nav__link">
+    Do not edit sections
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Program-Section/" title="Program Section" class="md-nav__link">
+      Program Section
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Custom-Fitness-Program/" title="Custom Fitness Program" class="md-nav__link">
+      Custom Fitness Program
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Goal Based Fitness Plans
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Goal Based Fitness Plans" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Goal Based Fitness Plans
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Goal-Based-Fitness-Plans/Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Goal-Based-Fitness-Plans/GB-Lectures/" title="Lectures" class="md-nav__link">
+      Lectures
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Goal-Based-Fitness-Plans/GB-Program-Section/" title="Program Section" class="md-nav__link">
+      Program Section
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Goal-Based-Fitness-Plans/GB-Simple-Product/" title="Simple Product" class="md-nav__link">
+      Simple Product
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      1-on-1 Personal Training
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="1-on-1 Personal Training" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        1-on-1 Personal Training
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1-on-1-Personal-Training/Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1-on-1-Personal-Training/One-Time-Program/" title="One Time Program" class="md-nav__link">
+      One Time Program
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1-on-1-Personal-Training/Monthly-Plans/" title="Monthly Plans" class="md-nav__link">
+      Monthly Plans
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../1-on-1-Personal-Training/Product-Bundle/" title="Product Bundle" class="md-nav__link">
+      Product Bundle
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Single-Subscription/" title="Single Subscription" class="md-nav__link">
+      Single Subscription
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Group-Subscription/" title="Group Subscription" class="md-nav__link">
+      Group Subscription
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Product-Bundle/" title="Product Bundle" class="md-nav__link">
+      Product Bundle
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-lectures" class="md-nav__link">
+    Create Lectures
+  </a>
+  
+    <nav class="md-nav" aria-label="Create Lectures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-new" class="md-nav__link">
+    Add New
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lecture-settings" class="md-nav__link">
+    Lecture Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Lecture Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-title" class="md-nav__link">
+    Add Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-editor" class="md-nav__link">
+    Content Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-available" class="md-nav__link">
+    Tools Available
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools Available">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#change-block-typestyle" class="md-nav__link">
+    Change Block Type/Style
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-text-alignment" class="md-nav__link">
+    Change Text Alignment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#highlight-color" class="md-nav__link">
+    Highlight Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-link" class="md-nav__link">
+    Add Link
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-controls" class="md-nav__link">
+    Text Controls
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-options" class="md-nav__link">
+    More Options
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-block" class="md-nav__link">
+    Add Block
+  </a>
+  
+    <nav class="md-nav" aria-label="Add Block">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-used" class="md-nav__link">
+    Most Used
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#commom-blocks" class="md-nav__link">
+    Commom Blocks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#embeds" class="md-nav__link">
+    Embeds
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preview" class="md-nav__link">
+    Preview
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documents-tab" class="md-nav__link">
+    Documents Tab
+  </a>
+  
+    <nav class="md-nav" aria-label="Documents Tab">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discussion" class="md-nav__link">
+    Discussion
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#featured-image" class="md-nav__link">
+    Featured Image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish" class="md-nav__link">
+    Publish
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-tips" class="md-nav__link">
+    Important Tips
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#do-not-edit-sections" class="md-nav__link">
+    Do not edit sections
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="lectures"><strong>Lectures</strong><a class="headerlink" href="#lectures" title="Permanent link">&para;</a></h1>
+<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>Lectures are pre-recorded videos or images which can be embedded in specific programs which are part of the Custom Fitness Program.</p>
+<h2 id="create-lectures"><strong>Create Lectures</strong><a class="headerlink" href="#create-lectures" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to <strong>online.crushfitnessindia.com</strong></a></li>
+<li>Login with the credentials.</li>
+<li>
+<p>Click -&gt; <strong>Lectures</strong> tab on left side panel</p>
+<p><img alt="lectures" src="../../images/Lectures/lectures.jpg" /></p>
+</li>
+</ul>
+<h3 id="add-new"><strong>Add New</strong><a class="headerlink" href="#add-new" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Click -&gt; <strong>Add New</strong></p>
+<p><img alt="add new" src="../../images/Lectures/addnew.jpg" /></p>
+</li>
+</ul>
+<p>You will reach the content editor screen.</p>
+<p><img alt="content editor" src="../../images/Lectures/contenteditor.jpg" /></p>
+<blockquote>
+<p><strong>Gutenberg Blocks</strong></p>
+<p>The content editor page provides different editor blocks known as <strong>"Gutenberg Blocks"</strong> which are used to create content layouts in the Wordpress.</p>
+<p>The Gutenberg editor is a fully block-based editor where each piece of content is a draggable block.</p>
+<p>By default, WordPress offers a set of basic content blocks like a paragraph, image, button, list, and more. These will be discussed as we move further in this manual.
+</p>
+</blockquote>
+<h2 id="lecture-settings"><strong>Lecture Settings</strong><a class="headerlink" href="#lecture-settings" title="Permanent link">&para;</a></h2>
+<p>Follow the instructions below to set up lectures:</p>
+<h3 id="add-title"><strong>Add Title</strong><a class="headerlink" href="#add-title" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Enter the title of the Lecture.</li>
+</ul>
+<p><img alt="title" src="../../images/Lectures/title.jpg" /></p>
+<p><img alt="💡" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4a1.svg" title=":bulb:" /> <strong>Important Tips for Lecture Title</strong></p>
+<ul>
+<li>Name a lecture which is relatable to the program.</li>
+<li>Try to include the start date of the lecture.</li>
+<li>Include the type of lecture for better connection.</li>
+</ul>
+<p>Below is an example for the Lecture naming system:</p>
+<p><img alt="lecture naming" src="../../images/Lectures/lecturenaming.jpg" /></p>
+<p>Once the Title is entered, a link for the lecture is created.</p>
+<p><img alt="link" src="../../images/Lectures/link.jpg" /></p>
+<h3 id="content-editor"><strong>Content Editor</strong><a class="headerlink" href="#content-editor" title="Permanent link">&para;</a></h3>
+<ul>
+<li>In the description block, you can add any content related to the lecture.</li>
+<li>The tools panel is visible for each content block.</li>
+</ul>
+<p><img alt="desc block" src="../../images/Lectures/descblock.jpg" /></p>
+<h3 id="tools-available"><img alt="🛠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f6e0.svg" title=":hammer_and_wrench:" /> <strong>Tools Available</strong><a class="headerlink" href="#tools-available" title="Permanent link">&para;</a></h3>
+<p>Below are the various tools available to edit your content:</p>
+<h4 id="change-block-typestyle"><strong>Change Block Type/Style</strong><a class="headerlink" href="#change-block-typestyle" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click the Change block type/style icon. Different style options show, eg: Heading, List, Quote etc.</p>
+<p><img alt="tool1" src="../../images/Lectures/tool1.jpg" /></p>
+</li>
+</ul>
+<h4 id="change-text-alignment"><strong>Change Text Alignment</strong><a class="headerlink" href="#change-text-alignment" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click the Change text alignment icon - it allows you to align text as you want.</p>
+<p><img alt="tool2" src="../../images/Lectures/tool2.jpg" /></p>
+</li>
+</ul>
+<h4 id="highlight-color"><strong>Highlight Color</strong><a class="headerlink" href="#highlight-color" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click the Highlight color icon - it gives multiple color options to choose from.</p>
+<p><img alt="tool3" src="../../images/Lectures/tool3.jpg" /></p>
+</li>
+</ul>
+<h4 id="add-link"><strong>Add Link</strong><a class="headerlink" href="#add-link" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click the Add link icon - this allows you to insert a link to any URL.</p>
+<p><img alt="tool4" src="../../images/Lectures/tool4.jpg" /></p>
+</li>
+</ul>
+<h4 id="text-controls"><strong>Text Controls</strong><a class="headerlink" href="#text-controls" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click the Text Controls icon - it provides multiple options to edit your text.</p>
+<p><img alt="text format" src="../../images/Lectures/textformat.jpg" /></p>
+</li>
+</ul>
+<h4 id="more-options"><strong>More Options</strong><a class="headerlink" href="#more-options" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>Click on the icon with 3 vertical dots <img alt="dots" src="../../images/Lectures/dots.jpg" /> to get a list of More options</p>
+<p><img alt="more options" src="../../images/Lectures/moreoptions.jpg" /></p>
+</li>
+</ul>
+<h3 id="add-block"><strong>Add Block</strong><a class="headerlink" href="#add-block" title="Permanent link">&para;</a></h3>
+<ul>
+<li>An Add Block is represented by <strong>"+"</strong> sign in the editor.</li>
+<li>
+<p>It is a shortcut to access basic formatting options.</p>
+<p><img alt="add block" src="../../images/Lectures/addblock.jpg" /></p>
+</li>
+</ul>
+<p>We will discuss the most common options which can be used to create a lecture.</p>
+<h4 id="most-used"><strong>Most Used</strong><a class="headerlink" href="#most-used" title="Permanent link">&para;</a></h4>
+<p>These are most used options - paragraph, formatting tools, adding video, audio files.</p>
+<p><img alt="most used" src="../../images/Lectures/mostused.jpg" /></p>
+<h4 id="commom-blocks"><strong>Commom Blocks</strong><a class="headerlink" href="#commom-blocks" title="Permanent link">&para;</a></h4>
+<p>These are most common used options -  paragraph, formatting, indenting tools.</p>
+<p><img alt="common blocks" src="../../images/Lectures/commonblocks.jpg" /></p>
+<h4 id="embeds"><strong>Embeds</strong><a class="headerlink" href="#embeds" title="Permanent link">&para;</a></h4>
+<p>These provide easy links to third party apps. For eg. youtube, vimeo, twitter, instagram, facebook, spotify etc.</p>
+<p><img alt="embeds" src="../../images/Lectures/embeds.jpg" /></p>
+<p><img alt="📝" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4dd.svg" title=":memo:" /> <strong>Note: Avoid using the following options:</strong></p>
+<ul>
+<li>Formatting</li>
+<li>Layout Elements</li>
+<li>Widgets</li>
+<li>Toolset</li>
+<li>WooCommerce Views</li>
+<li>WooCommerce</li>
+</ul>
+<h3 id="preview"><strong>Preview</strong><a class="headerlink" href="#preview" title="Permanent link">&para;</a></h3>
+<p>Once all the content is added to the editor, they can be previewed before the final save.</p>
+<ul>
+<li>
+<p>Click on preview on top right corner.</p>
+<p><img alt="preview" src="../../images/Lectures/preview.jpg" /></p>
+</li>
+<li>
+<p>You will be able to view how your lecture will be visible on the live website.</p>
+<p><img alt="preview page" src="../../images/Lectures/previewpage.jpg" /></p>
+</li>
+</ul>
+<h3 id="documents-tab"><strong>Documents Tab</strong><a class="headerlink" href="#documents-tab" title="Permanent link">&para;</a></h3>
+<p>Under the Documents tab on the right side panel, following changes can be done if required:</p>
+<h4 id="discussion"><strong>Discussion</strong><a class="headerlink" href="#discussion" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Go to -&gt; <strong>Discussion</strong></li>
+<li>
+<p>Tick <img alt="✅" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2705.svg" title=":white_check_mark:" /> <strong>"Allow Comments"</strong> - This allows customers to add their comments about the lecture.</p>
+<p><img alt="allow comments" src="../../images/Lectures/allowcomments.jpg" /></p>
+</li>
+</ul>
+<h4 id="featured-image"><strong>Featured Image</strong><a class="headerlink" href="#featured-image" title="Permanent link">&para;</a></h4>
+<ul>
+<li>An image can be uploaded in the <strong>"Featured Image"</strong> option.</li>
+<li>
+<p>Click -&gt; <strong>Set Featured Image</strong> to add image.</p>
+<p><img alt="featured image" src="../../images/Lectures/featuredimage.jpg" /></p>
+</li>
+</ul>
+<h2 id="publish"><strong>Publish</strong><a class="headerlink" href="#publish" title="Permanent link">&para;</a></h2>
+<p>Once all the content is final:</p>
+<ul>
+<li>Click on <strong>Publish</strong> on the top right corner.</li>
+<li>
+<p>Changes will be saved.</p>
+<p><img alt="publish" src="../../images/Lectures/publish.jpg" /></p>
+</li>
+</ul>
+<h2 id="important-tips"><img alt="💡" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4a1.svg" title=":bulb:" /> <strong>Important Tips</strong><a class="headerlink" href="#important-tips" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Adding content to lectures is similar to writing an email.</li>
+<li>Anything can be added in the content: text, images, videos, links to thrid party apps etc.</li>
+<li>All formatting options are available: paragraph, indent, text formatting, heading etc.</li>
+</ul>
+<h2 id="do-not-edit-sections"><img alt="🚫" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f6ab.svg" title=":no_entry_sign:" /> <strong>Do not edit sections</strong><a class="headerlink" href="#do-not-edit-sections" title="Permanent link">&para;</a></h2>
+<p>Do not edit/make changes to the two sections shown in the image below:</p>
+<p><img alt="do not touch" src="../../images/Lectures/donottouch.jpg" /></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 7, 2020</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Introduction/" title="Introduction" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Introduction
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Program-Section/" title="Program Section" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Program Section
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
