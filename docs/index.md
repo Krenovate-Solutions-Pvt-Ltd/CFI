@@ -39,15 +39,24 @@ In this manual we will cover step-by-step instructions for the below tasks:
 *   [**Product Templates**](Product-Templates.md)
 *   [**Zoom Single Class**](Zoom-Single-Class.md)
 *   [**Pre Recorded Class**](Pre-Recorded-Class.md)
+
 *   [**Custom Fitness**](Custom-Fitness\Introduction.md)
 
     *   [**Lessons/Lectures**](Custom-Fitness/Lectures.md)
     *   [**Program Sections**](Custom-Fitness/Program-Section.md)
     *   [**Custom Fitness Programs**](Custom-Fitness/Custom-Fitness-Program.md)
-*   [**Single Subscription**](Single-Subscription.md)
-*   [**Group Subscription**](Group-Subscription.md)
+
 *   [**Goal Based Fitness Plan**](Goal-Based-Fitness-Plan\Introduction.md)
 
     *   [**Lectures**](Goal-Based-Fitness-Plan\Lectures.md)
     *   [**Program Section**](Goal-Based-Fitness-Plan\Program-Section.md)
     *   [**Simple Product**](Goal-Based-Fitness-Plan\Simple-Product.md)
+
+*   [**1-on-1 Personal Training**](1-on-1-Personal-Training\Introduction.md)
+
+    -   [**One Time Program**](1-on-1-Personal-Training\One-Time-Program.md)
+    -   [**Monthly Plans**](1-on-1-Personal-Training\Monthly-Plans.md)
+    -   [**Product Bundle**](1-on-1-Personal-Training\Product-Bundle.md)
+
+*   [**Single Subscription**](Single-Subscription.md)
+*   [**Group Subscription**](Group-Subscription.md)

@@ -19,7 +19,7 @@ The below fields will help in creating the required Product:
 
 -   Enter a name for the Product. Few examples are below:
 
-![title](../images\GB-Simple-Product\title.jpg)
+    ![title](../images\GB-Simple-Product\title.jpg)
 
 ### **Description**
 
@@ -103,7 +103,7 @@ Edit the below field:
 
 -   Tick :white_check_mark: the check box to enable this option. It should be **always enabled**.
 
-    ![inventory](images\GB-Simple-Product\inventory.jpg)
+    ![inventory](../images\GB-Simple-Product\inventory.jpg)
 
 
 ### **Product Short Description - NA**

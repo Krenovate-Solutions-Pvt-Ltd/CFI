@@ -136,11 +136,11 @@ This is the last section located at the bottom of the page. This allows the inte
 
 
 
-## **Note**
+## :memo: **Note**
 
 All the Pre-recorded Classes card from the dashboard are set to expire/stop exactly at double the time of the class duration.
 
-Class Validity = (Class duration in minutes)*2
+__Class Validity = (Class duration in minutes)*2__
 
 E.g. If the duration of class is 30 minutes, then the Card will be visible on the dashboard for 60 mins.
 
