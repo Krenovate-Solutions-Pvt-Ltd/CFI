@@ -77,7 +77,7 @@ The final look - This is how the connected lectures appear on the frontend:
 
 To club multiple Program Sections under a plan, assigning a Product Category to every Program section created is a key requirement.
 
-**Under the Personal Fitness, each product created should have a category with the same name.**
+**Under the Personal Fitness, each product created should have a sub-category with the same name.**
 
 Follow the below steps to select category:
 

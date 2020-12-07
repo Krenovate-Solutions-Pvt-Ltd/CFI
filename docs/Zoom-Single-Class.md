@@ -131,6 +131,6 @@ This is the last section located at the bottom of the page. It allows the integr
     ![update](images\Zoom\update.jpg)
 
 
-## **Note**
+## :memo: **Note**
 
 All the Zoom Classes card from the dashboard are set to expire exactly at 2 hours, after the class has first started.

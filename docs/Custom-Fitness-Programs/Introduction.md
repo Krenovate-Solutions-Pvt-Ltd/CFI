@@ -1,10 +1,10 @@
-#   **1-on-1 Personal Training**
+#   **Custom Fitness Programs**
 
 ##  **Introduction**
 
-1-on-1 Personal Training or Custom Fitness Plans are fitness programs offering dedicated trainer support, customised fitness and diet plans.
+Custom Fitness Programs are fitness programs offering customised fitness and diet plans as per customer requirements.
 
-Few features to keep in mind about Custom Fitness Plans:
+Few features to keep in mind about Custom Fitness Programs:
 
 -   This is a 1-on-1 personal training program.
 -   It is allotted to single customer manually by going to the backend admin panel.
