@@ -185,6 +185,7 @@ Click on **Add Product** button to search and add products to be bundled. For ea
 ######  **Basic Settings**<br><br>
 
 ![basic settings](../images\Product-Bundle\basicsettings.jpg)
+
 -   **Optional** : Tick this option to mark the bundled product as optional.
 -   **Quantity Min** : Enter the minimum/default quantity of this bundled product. 
 -   **Quantity Max** : Enter the maximum quantity of this bundled product. Leave the field empty for an unlimited maximum quantity.
@@ -194,6 +195,7 @@ Click on **Add Product** button to search and add products to be bundled. For ea
 ######  **Advanced Settings**<br><br>
 
 ![advanced settings](../images\Product-Bundle\advancedsettings.jpg)
+
 -   **Visiblity** : It has 3 options which should be checked:
 
     -   **Product Details** - Controls the visibility of the bundled item in the single-product template of this bundle.
@@ -205,9 +207,10 @@ Click on **Add Product** button to search and add products to be bundled. For ea
     -   **Product Details** - Controls the visibility of the bundled-item price in the single-product template of this bundle.
     -   **Cart/Checkout** - Controls the visibility of the bundled-item price in the single-product template of this bundle.
     -   **Order Details** - Controls the visibility of the bundled-item price in the single-product template of this bundle.
-    -   **Override Title** - This option is checked to override the default product title. **Do not enable this.**
-    -   **Override Short Description** - This option is to override the default short product description. **Do not enable this.**
-    -   **Hide Thumbnail** - Check this option only if you want to hide the thumbnail image of this bundled product. **Do not enable this.**
+
+-   **Override Title** - This option is checked to override the default product title. **Do not enable this.**
+-   **Override Short Description** - This option is to override the default short product description. **Do not enable this.**
+-   **Hide Thumbnail** - Check this option only if you want to hide the thumbnail image of this bundled product. **Do not enable this.**
 
 
 ### **Product Short Description - NA**
@@ -258,3 +261,13 @@ Click on **Publish/Update** to save all the changes.
 
 ![publish](../images\Subscriptions\publish.jpg)
 
+##  **Difference between Group Subscription and Product Bundle**
+
+Many may get confused between the two as the main purpose of both is to group products. But, there is a significant difference between Group Subscription and Product Bundle. Let's see the key differences below:
+
+**Group Subscription** | **Product Bundle **
+---------|----------
+ Only Simple subscriptions can be added or grouped | Any type of product and subscription can be grouped 
+ Only one subscription at a time can be active | Multiple subscriptions/products can be active at a given time 
+ ![ex group](../images\Product-Bundle\exgroup.jpg) | ![ex bundle](../images\Product-Bundle\exbundle.jpg)
+ 

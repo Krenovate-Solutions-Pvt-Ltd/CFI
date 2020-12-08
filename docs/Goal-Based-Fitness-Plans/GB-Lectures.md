@@ -56,7 +56,7 @@ Once the Title is entered, a link for the lecture is created.
 
 ![link](../images/Lectures/link.jpg)
 
-### **Content Editor**
+### :pencil2: **Content Editor**
 
 *   In the description block, you can add any content related to the lecture.
 *   The tools panel is visible for each content block.
