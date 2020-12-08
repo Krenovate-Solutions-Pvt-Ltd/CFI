@@ -4,6 +4,8 @@
 
 Monthly Plans are products which are available on a monthly basis. These products provide interaction with dedicated trainers, diet plans, fitness plans based on the customer assessment and requirements.
 
+These plans are treated as Simple subscriptions.
+
 Below we will learn how to create a monthly plan:
 
 

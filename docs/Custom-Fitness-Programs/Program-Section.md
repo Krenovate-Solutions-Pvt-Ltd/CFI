@@ -10,7 +10,7 @@ Program Section is the section which controls the whole system of creating custo
 *   Login with the credentials.
 *   Click -> **Program Section** tab on left side panel
 
-    ![prog section](../images/Program-Section/progsect.jpg)
+    ![prog sect](../images\Program-Section\progsect.jpg)
 
 *   Click -> **Add New**
 

@@ -1,6 +1,6 @@
 # **Custom Fitness Program**
 
-To create the 1-on-1 Personal Training plan/ Custom Fitness plan, the final step is to create the program which will link the respective lectures and program sections. In this section, we will see how to do the same
+To create the Custom Fitness plan, the final step is to create the program which will link the respective lectures and program sections. In this section, we will see how to do the same
 
 ## **Create Custom Fitness Program**
 

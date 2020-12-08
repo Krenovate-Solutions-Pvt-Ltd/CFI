@@ -14,26 +14,13 @@ Key features about Product Category:
 -   A product category is the key link in setting up programs/classes and further features.
 -   Products/classes are placed "inside" categories, and customers can browse through each category to find products of interest.
 -   All top level categories will be visible when a visitor first enters the main catalog
--   Subcategories will only be visible when a user clicks on the "parent" category
+-   Sub-categories will only be visible when a user clicks on the "parent" category
 
 A sample of a parent category and its sub-categories is shown below:
 
 ![sample categories](images\Product-Category\samplecategories.jpg)
 
->   Note: If for a certain class/program, category is not chosen, then it will show as uncategorised.
-
-### **How Different Categories Function**
-
-Let's understand the function of categories at CFI.
-
-At CFI, there are 3 main cateogries offered, namely:
-
--   Goal Based Fitness Plans
--   1-on-1 Personal Training
--   Group Fitness
-
-Each of these are have different Parent and sub-categories.
-
+>   :memo: **Note : If for a certain class/program, category is not chosen, then it will show as uncategorised.**
 
 
 In this section, we will see how to add a new category.
@@ -45,32 +32,39 @@ To add a new category, follow the below steps:
 1.  <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to -> online.crushfitnessindia.com**</a> 
 2.  On left side panel, Click -> **Products** -> **Categories** - you will be taken to the Add New Category page.
 
-![dashboard](images\Product-Category\dashboard.jpg)
+    ![dashboard](images\Product-Category\dashboard.jpg)
 
-3.  The below fields are required to be updated:
+
+##  **Product Category Settings**
+
+Edit the following fields:
 
 ### **Name**
 
-Enter the name of the category you want to display. For eg: "Kids Special" 
+-   Enter the name of the category you want to display. For eg: "Kids Special" 
 
-![Name](images\Product-Category\name.jpg)
+    ![Name](images\Product-Category\name.jpg)
 
 ### **Parent Category**
 
-The Parent category would be the category under which the created category would be placed in order to create a hierarchy. In this case, always choose "**Group Fitness**"
+-   The Parent category would be the category under which the created category would be placed in order to create a hierarchy. In this case, always choose "**Group Fitness**"
 
-![parent cat](images\Product-Category\parentcat.jpg)
+    ![parent cat](images\Product-Category\parentcat.jpg)
 
 ### **Display Type**
 
-The display type should be selected as "**Default**"
+-   The display type should be selected as "**Default**"
 
-![display type](images\Product-Category\displaytype.jpg)
+    ![display type](images\Product-Category\displaytype.jpg)
 
-4.  Click -> **Add New Category** button
+
+###  **Add New Category**
+
+-   Click -> **Add New Category** button
 
     ![click button](images\Product-Category\savecat.jpg)
 
 Once the above steps are complete, the "Kids Special" category will be added under the Group Fitness category.
 
 **This "Kids Special" category would be helpful when creating a Zoom/pre-recorded class for kids.**
+

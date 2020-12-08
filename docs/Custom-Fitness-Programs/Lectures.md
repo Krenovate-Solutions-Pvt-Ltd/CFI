@@ -39,7 +39,7 @@ Follow the instructions below to set up lectures:
 
 *   Enter the title of the Lecture.
 
-![title](../images/Lectures/title.jpg)
+    ![title](../images/Lectures/title.jpg)
 
 :bulb: **Important Tips for Lecture Title**
 
@@ -56,12 +56,12 @@ Once the Title is entered, a link for the lecture is created.
 
 ![link](../images/Lectures/link.jpg)
 
-### **Content Editor**
+### :pencil2: **Content Editor**
 
 *   In the description block, you can add any content related to the lecture.
 *   The tools panel is visible for each content block.
 
-![desc block](../images/Lectures/descblock.jpg)
+    ![desc block](../images/Lectures/descblock.jpg)
 
 ### :hammer_and_wrench: **Tools Available**
 
