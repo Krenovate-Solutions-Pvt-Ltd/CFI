@@ -60,3 +60,5 @@ In this manual we will cover step-by-step instructions for the below tasks:
 
 *   [**Single Subscription**](Single-Subscription.md)
 *   [**Group Subscription**](Group-Subscription.md)
+*   [**Group Subscription vs Product Bundle**](Group-Subscription-vs-Product-Bundle.md)
+*   [**Coupons**](Coupons.md)
