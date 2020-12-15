@@ -261,13 +261,5 @@ Click on **Publish/Update** to save all the changes.
 
 ![publish](../images\Subscriptions\publish.jpg)
 
-##  **Difference between Group Subscription and Product Bundle**
 
-Many may get confused between the two as the main purpose of both is to group products. But, there is a significant difference between Group Subscription and Product Bundle. Let's see the key differences below:
-
-**Group Subscription** | **Product Bundle **
----------|----------
- Only Simple subscriptions can be added or grouped | Any type of product and subscription can be grouped 
- Only one subscription at a time can be active | Multiple subscriptions/products can be active at a given time 
- ![ex group](../images\Product-Bundle\exgroup.jpg) | ![ex bundle](../images\Product-Bundle\exbundle.jpg)
  

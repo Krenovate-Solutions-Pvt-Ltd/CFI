@@ -21,7 +21,8 @@ nav:
       -  Product Bundle:  '1-on-1-Personal-Training/Product-Bundle.md' 
   -  Single Subscription:  'Single-Subscription.md'
   -  Group Subscription:  'Group-Subscription.md'
-  -  Product Bundle:  'Product-Bundle.md'
+  -  Group Subscription vs Product Bundle:  'Group-Subscription-vs-Product-Bundle.md'
+  -  Coupons:  'Coupons.md'
 theme:
   name: material
   features:
