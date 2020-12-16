@@ -541,6 +541,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#mandatory-rules-to-follow" class="md-nav__link">
+    Mandatory Rules to Follow
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -561,15 +568,22 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#video-tutorial" class="md-nav__link">
-    Video Tutorial
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-coupon-import" class="md-nav__link">
+    Check Coupon Import
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#help-guides" class="md-nav__link">
+    Help &amp; Guides
+  </a>
   
 </li>
       
@@ -634,6 +648,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#mandatory-rules-to-follow" class="md-nav__link">
+    Mandatory Rules to Follow
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -654,15 +675,22 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#video-tutorial" class="md-nav__link">
-    Video Tutorial
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-coupon-import" class="md-nav__link">
+    Check Coupon Import
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#help-guides" class="md-nav__link">
+    Help &amp; Guides
+  </a>
   
 </li>
       
@@ -694,7 +722,7 @@
 <p>Maintaining the format of all columns is of utmost importance in order to import all data correctly.</p>
 <p>A sample CSV file is below:</p>
 <p><img alt="sample csv" src="../images/Coupons/samplecsv.jpg" /></p>
-<p><a href="https://docs.google.com/spreadsheets/d/1chs891NJEUcwYyTBVv-hyAN_eOvG_WWfjxFOwAkjEtI/edit?usp=sharing" title="Sample CSV"><strong>Sample CSV</strong></a> </p>
+<p><a href="https://docs.google.com/spreadsheets/d/1chs891NJEUcwYyTBVv-hyAN_eOvG_WWfjxFOwAkjEtI/edit?usp=sharing" target="_blank"><strong>Sample CSV</strong></a> </p>
 <h3 id="csv-columns"><strong>CSV Columns</strong><a class="headerlink" href="#csv-columns" title="Permanent link">&para;</a></h3>
 <p>The below table gives a brief description of all the column fields of a CSV file:</p>
 <table>
@@ -708,7 +736,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Coupon Code</td>
+<td>*Coupon Code</td>
 <td>coupon_code</td>
 <td>It is used to specify the code of the coupon in the CSV file. You can generate coupon code by using numerical, alphabet, and special character.</td>
 <td>JJ8kC</td>
@@ -720,19 +748,19 @@
 <td>Discount for product</td>
 </tr>
 <tr>
-<td>Status</td>
+<td>*Status</td>
 <td>post_status</td>
 <td>Specify the status for the coupon</td>
 <td>publish</td>
 </tr>
 <tr>
-<td>Discount Type</td>
+<td>*Discount Type</td>
 <td>discount_type</td>
 <td>Mention one of the discount types:  Cart Discount; Cart % Discount; Product Discount; Product % Discount</td>
 <td>fixed_cart = Cart Discount; percent = Cart % Discount; fixed_product = Product Discount; percent_product = Product % Discount</td>
 </tr>
 <tr>
-<td>Coupon Amount</td>
+<td>*Coupon Amount</td>
 <td>coupon_amount</td>
 <td>Specify the coupon amount in decimal form without thousand separators and currency symbols. According to the Discount type please specify the coupon amount in the CSV file</td>
 <td>34.896</td>
@@ -744,7 +772,7 @@
 <td>yes/no</td>
 </tr>
 <tr>
-<td>Product Ids</td>
+<td>*Product Ids</td>
 <td>product_ids</td>
 <td>Enter the id of the products which you want to be discounted</td>
 <td>27,532,756</td>
@@ -758,23 +786,23 @@
 <tr>
 <td>Usage Limit</td>
 <td>usage_limit</td>
-<td>Specify the total number of times the coupon can be used</td>
-<td>1,2</td>
+<td>Specifies how many times a coupon can be used by all customers before being invalid.</td>
+<td>Enter numeric value</td>
 </tr>
 <tr>
 <td>Usage Limit Per User</td>
 <td>usage_limit_per_user</td>
-<td>Specify the total number of times the coupon can be used by a single user</td>
-<td>1,2</td>
+<td>Specify how many times a coupon can be used by each customer before being invalid for that customer.</td>
+<td>Enter numeric value</td>
 </tr>
 <tr>
 <td>Limit Usage</td>
 <td>limit_usage_to_x_items</td>
-<td>Specify the total number of items the coupon can be applicable to</td>
-<td>3,5,16</td>
+<td>Specify how many items the coupon can be applied to before being invalid. This field is only displayed if there is one or more products that the coupon can be used with, and is configured under the Usage Restrictions.</td>
+<td>Enter numeric value</td>
 </tr>
 <tr>
-<td>Expiry Date</td>
+<td>*Expiry Date</td>
 <td>expiry_date</td>
 <td>Specify the coupon expiry date</td>
 <td><strong>Date format to be followed : yyyy-mm-dd</strong> eg: 2015-02-14</td>
@@ -806,23 +834,31 @@
 <tr>
 <td>Minimum Amount</td>
 <td>minimum_amount</td>
-<td>C1</td>
-<td>D1</td>
+<td>Allows you to set the minimum subtotal needed to use the coupon.  Note: The sum of the cart subtotal + tax is used to determine the minimum amount.</td>
+<td>Enter numeric values</td>
 </tr>
 <tr>
 <td>Maximum Amount</td>
 <td>maximum_amount</td>
-<td>C2</td>
-<td>D2</td>
+<td>Allows you to set the maximum subtotal allowed when using the coupon.</td>
+<td>Enter numeric value</td>
 </tr>
 <tr>
 <td>Customer Email</td>
 <td>customer_email</td>
-<td>Enter the email id of the user</td>
+<td>Allows Emails/Email restrictions – Email address or addresses that can use a coupon. It can be left blank.</td>
 <td><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#98;&#99;&#64;&#120;&#121;&#122;&#46;&#99;&#111;&#109;">&#97;&#98;&#99;&#64;&#120;&#121;&#122;&#46;&#99;&#111;&#109;</a></td>
 </tr>
 </tbody>
 </table>
+<h3 id="mandatory-rules-to-follow"><strong>Mandatory Rules to Follow</strong><a class="headerlink" href="#mandatory-rules-to-follow" title="Permanent link">&para;</a></h3>
+<p>While entering data in the CSV columns, few rules are mandatory to be followed:</p>
+<ul>
+<li>Date format to be followed : <strong>yyyy-mm-dd</strong></li>
+<li>For fields where product id or category has to be entered : the excel field format should always be <strong>"Text"</strong></li>
+<li>Column fields with a star "*" in the above table are required fields, rest are optional.</li>
+<li>Leaving “Products” and “Exclude Products” blank allows the coupon to be applied to the entire store.</li>
+</ul>
 <h2 id="how-to-import-coupons"><strong>How to Import Coupons?</strong><a class="headerlink" href="#how-to-import-coupons" title="Permanent link">&para;</a></h2>
 <p>Here, you will see a step by step tutorial on how to import coupons using the Ultimate CSV Importer. Follow the below steps:</p>
 <ul>
@@ -857,8 +893,39 @@
 <p><img alt="core fields" src="../images/Coupons/corefields.jpg" /></p>
 <p><img alt="coupon meta fields" src="../images/Coupons/couponmetafields.jpg" /></p>
 <p><img alt="coupon meta fields1" src="../images/Coupons/couponmetafields1.jpg" /></p>
-<h3 id="video-tutorial"><strong>Video Tutorial</strong><a class="headerlink" href="#video-tutorial" title="Permanent link">&para;</a></h3>
-<p>Watch the <a href="https://www.youtube.com/watch?v=b3Ix0WB3Bwg&t=196s" target="_blank"><strong>Video Tutorial</strong></a> to understand how to use the CSV Importer</p>
+<ul>
+<li>
+<p>On the next screen, click -&gt; <strong>Import</strong></p>
+<p><img alt="import1" src="../images/Coupons/import1.jpg" /></p>
+</li>
+<li>
+<p>Once the file import is complete, you will see the below screen with the import details:</p>
+<p><img alt="import complete" src="../images/Coupons/importcomplete.jpg" /></p>
+</li>
+</ul>
+<h2 id="check-coupon-import"><strong>Check Coupon Import</strong><a class="headerlink" href="#check-coupon-import" title="Permanent link">&para;</a></h2>
+<p>In order to check if the coupons have been uploaded correctly, follow the below steps:</p>
+<ul>
+<li>
+<p>Go to -&gt; <strong>Marketing</strong> -&gt; <strong>Coupons</strong></p>
+<p><img alt="marketing" src="../images/Coupons/marketing.jpg" /></p>
+</li>
+<li>
+<p>Check for the added coupon codes in the list</p>
+<p><img alt="coupon list" src="../images/Coupons/couponlist.jpg" /></p>
+</li>
+<li>
+<p>Click on coupon code and check the Coupon Data fields, to confirm if the coupon details such as linked product id etc have been uploaded appropriately.</p>
+<p><img alt="coupondata" src="../images/Coupons/coupondata.jpg" /></p>
+<p><img alt="coupondata1" src="../images/Coupons/coupondata1.jpg" /></p>
+<p><img alt="coupondata2" src="../images/Coupons/coupondata2.jpg" /></p>
+</li>
+</ul>
+<h2 id="help-guides"><strong>Help &amp; Guides</strong><a class="headerlink" href="#help-guides" title="Permanent link">&para;</a></h2>
+<ul>
+<li><img alt="💻" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4bb.svg" title=":computer:" /> Watch the <a href="https://www.youtube.com/watch?v=b3Ix0WB3Bwg&t=196s" target="_blank"><strong>Video Tutorial</strong></a> to understand how to use the CSV Importer.</li>
+<li><img alt="💻" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4bb.svg" title=":computer:" /> Click here to <a href="https://docs.woocommerce.com/document/coupon-management/#section-1" target="_blank"><strong>Learn How to Add a Coupon manually</strong></a> and about all the fields.</li>
+</ul>
                 
                   
                     
@@ -867,7 +934,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 15, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 16, 2020</span>
     
   </small>
 </div>
