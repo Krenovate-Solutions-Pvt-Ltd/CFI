@@ -23,6 +23,7 @@ nav:
   -  Group Subscription:  'Group-Subscription.md'
   -  Group Subscription vs Product Bundle:  'Group-Subscription-vs-Product-Bundle.md'
   -  Coupons:  'Coupons.md'
+  -  Affiliate Partners:  'Affiliate-Partners.md'
 theme:
   name: material
   features:
