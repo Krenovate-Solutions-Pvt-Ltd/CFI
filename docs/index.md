@@ -62,3 +62,4 @@ In this manual we will cover step-by-step instructions for the below tasks:
 *   [**Group Subscription**](Group-Subscription.md)
 *   [**Group Subscription vs Product Bundle**](Group-Subscription-vs-Product-Bundle.md)
 *   [**Coupons**](Coupons.md)
+*   [**Affiliate Partners**](Affiliate-Partners.md)
