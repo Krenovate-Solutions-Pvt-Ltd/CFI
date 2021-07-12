@@ -6,7 +6,7 @@ Program Section is the section which controls the whole system of creating custo
 
 ## **Create Program Section**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to **online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Click -> **Program Section** tab on left side panel
 

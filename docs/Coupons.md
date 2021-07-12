@@ -65,7 +65,7 @@ While entering data in the CSV columns, few rules are mandatory to be followed:
 
 Here, you will see a step by step tutorial on how to import coupons using the Ultimate CSV Importer. Follow the below steps:
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to **online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Go to -> **Ultimate CSV Importer Pro** at the bottom on left side panel.
 

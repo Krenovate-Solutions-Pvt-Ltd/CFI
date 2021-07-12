@@ -11,7 +11,7 @@ Below, we will see how to create an Affiliate Partner:
 
 ##  **Create an Affiliate Partner**
 
-*   Go to <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Go to -> **Affiliate Partners** -> **Add New**
 
@@ -34,7 +34,7 @@ Below, we will see how to create an Affiliate Partner:
 
 ####    **Redeem Code**
 
--   The coupon codes that can be redeemed are uploaded using the Ultimate CSV Importer.
+-   The coupon codes that can be redeemed are uploaded using a CSV File.
 
     ![redeem code](images\Affiliate-Partner\redeemcode.jpg)
 
@@ -63,7 +63,7 @@ Once the affiliate partner is published, a code is generated in the URL.
 
 To give the customers the option of Sign-up or Sign-in, two pages have to be created. Follow the below steps for the same:
 
-*   Go to <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials
 *   Go to -> **Pages** -> **Add New**
 
@@ -115,109 +115,80 @@ For the sign-in page, the below fields need to be filled:
 
 ##  **Upload coupons using CSV File**
 
-The redeemable coupons provided to customers are uploaded using a CSV file. Below are the steps that should be followed in order to do so:
+The redeemable coupons provided to customers are uploaded using a CSV file. Follow below steps to create a CSV file:
 
-### **Export the CSV File**
+### **Create a CSV File**
 
-Once, a new affiliate has been created, a CSV file for the partner has to be exported. Let's see the steps below:
-
-1.  Go to-> **Ultimate CSV Importer Pro** at the bottom on left side panel.
-
-    ![export1](images\Affiliate-Partner\export1.jpg)
-
-2.  Click -> **Export** to select the options for the export
-
-    ![export2](images\Affiliate-Partner\export2.jpg)
-
-3.  Select -> **Custom Posts**
-4.  Select -> **affiliate-partner** from the drop down list
-
-    ![export3](images\Affiliate-Partner\export3.jpg)
-
-5.  Click on -> **Create New Mapping** or you can choose an existing template
-
-    ![export4](images\Affiliate-Partner\export4.jpg)
-
-6.  Fill in the filter details - name, type of file
-
-    ![export5](images\Affiliate-Partner\export5.jpg)
-
-7.  Click on export
-8.  Click -> **Download** once export is complete.
-
-    ![export6](images\Affiliate-Partner\export6.jpg)
-
+Create a new excel file and save it with .csv extension.
 
 ### **CSV Columns to be populated**
 
-After downloading the CSV file, the below columns have to be populated in order to upload the affiliate partner coupons. We will discuss only the columns that need to be filled in manually:
+The CSV file should have the below columns in order to upload the affiliate partner coupons. Below columns should be filled manually:
 
 ####    **redeem-code**
 
 These are the codes which need to be uploaded and are offered to the users to redeem. Below are some rules to be followed while entering the codes in the CSV file:
 
 -   All codes should be alpha-numeric without any special characters.
--   All codes should be seperated using the pipe symbol. For eg: mk1|mk2|mk3
+-   A single code can be used for multiple product ids.
+-   Multiple codes can be used for a single product id.
+-   A single coupon code can be used multiple times.
 
 ####    **redeem-code-product-id**
 
 This field consists of the product id designated to various products available to the users. This will specify the product on which the coupon can be redeemed. Follow below rules while filling this field:
 
--   Enter "1" = For any type of single class
 -   Enter "product id" = for any other class. For eg: 12322, 12323
--   All product id's should be seperated using pipe. For eg: 1|1|12322
+
 
 ####    **redeem-code-used**
 
 This field shows if the coupon code has been redeemed or not. While updating the CSV file, this field by default is "0".
 
--   The field entries should be seperated by pipe. For eg: 0|0|0
 
 ####    **redeem-code-user-email**
 
-This field gets updated with the user email when the code is redeemed. It should be populated with empty pipes. For eg: |||||
+This field gets updated with the user email when the code is redeemed. 
 
-**Some important points to remeber:**
+**Some important points to remember:**
 
 -   Once a coupon code is created, it cannot be deleted or edited.
 -   Only new coupon codes can be added to the existing file.
--   Number of pipe seperators has to be same in all the above fields.
+-   Column names are very important and should be entered correctly otherwise the coupons will not work properly.
 
 Below is a Sample CSV:
 
-![csv](images\Affiliate-Partner\csv.jpg)
+![csv1](images\Affiliate-Partner\csv1.jpg)
 
-<a href="https://docs.google.com/spreadsheets/d/1iosgXR3lwbRPFo9DgilDPlXo4fm6PngNqztLQq2LffA/edit?usp=sharing" target="_blank">**Sample CSV - Affiliate**</a> 
+<a href="https://docs.google.com/spreadsheets/d/1OVrRBuuLrbxcec-43ZHRcpN3yOezVG2Jy1lBkTsSFPA/edit?usp=sharing" target="_blank">**Sample CSV - Affiliate**</a> 
 
 ### **Importing the CSV File**
 
 The final step is to upload the coupon codes so they can be applied. This is done by importing the updated CSV file. Follow the steps below:
 
-1.  Go to-> **Ultimate CSV Importer Pro** at the bottom on left side panel.
+1.  Go to-> **Crush Reports** at the left side panel.
 
     ![export1](images\Affiliate-Partner\export1.jpg)
 
-2.  Click -> **Import/Update** - to choose the file to upload/import.
+2.  Click -> **Import Affiliate** 
 
-    ![import1](images\Affiliate-Partner\import1.jpg)
+    ![importaff](images\Affiliate-Partner\importaff.jpg)
 
-3.  Choose -> **New Item** 
+3.  **Select Affiliate** - for whom the coupons need to be uploaded 
 
-    ![import2](images\Affiliate-Partner\import2.jpg)
+    ![selectaff](images\Affiliate-Partner\selectaff.jpg)
 
-4.  Select -> **affiliate-partner** from the drop down list
+4.  **Coupon CSV** - choose the csv file to be uploaded
 
-    ![import3](images\Affiliate-Partner\import3.jpg)
+    ![couponcsv](images\Affiliate-Partner\couponcsv.jpg)
 
-5.  Click **continue** to move to the next screen where the field mapping takes place.
+5.  Click **Import Codes** to move to start uploading
 
-    ![import4](images\Affiliate-Partner\import4.jpg)
+    ![importcode](images\Affiliate-Partner\importcode.jpg)
 
-6.  Click -> **Import** to complete the process
+6.  The file import % or finished status will be displayed on the screen.
 
-    ![import5](images\Affiliate-Partner\import5.jpg)
-
-
+    ![importstatus](images\Affiliate-Partner\importstatus.jpg)
 
 
 ##  **Crush Reports**
@@ -226,7 +197,7 @@ Crush Reports section displays downloadable reports about all the affiliates. Th
 
 To access reports:
 
-*   Go to <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials
 *   Go to -> **Crush Reports**
 
