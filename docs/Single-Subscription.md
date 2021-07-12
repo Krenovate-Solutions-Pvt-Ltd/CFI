@@ -22,7 +22,7 @@ In this section of the manual, we will learn how to create a simple subscription
 
 Follow the below steps:
 
-1.  <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to :point_right: **online.crushfitnessindia.com**</a> 
+1.  Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a> 
 2.  Click :arrow_right: **Products** :arrow_right: **Add New**
 
     ![add new](images\Subscriptions\addnew.jpg)

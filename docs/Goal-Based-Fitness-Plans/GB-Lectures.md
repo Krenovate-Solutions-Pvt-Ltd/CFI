@@ -6,7 +6,7 @@ Lectures are pre-recorded videos or images which can be embedded in specific pro
 
 ## **Create Lectures**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to **online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Click -> **Lectures** tab on left side panel
 

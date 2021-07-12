@@ -9,7 +9,7 @@ Below we will see all the settings to be edited to create a One Time Program:
 
 ##  **Create a One Time Program**
 
--   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to -> **online.crushfitnessindia.com**</a> 
+-   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 -   Login with the credentials.
 -   On left side panel, Click -> **Products** -> **Add New** - you will be taken to the Add New Product page
 

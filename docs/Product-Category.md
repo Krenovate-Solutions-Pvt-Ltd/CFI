@@ -29,7 +29,7 @@ In this section, we will see how to add a new category.
 
 To add a new category, follow the below steps:
 
-1.  <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to -> online.crushfitnessindia.com**</a> 
+1.  Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 2.  On left side panel, Click -> **Products** -> **Categories** - you will be taken to the Add New Category page.
 
     ![dashboard](images\Product-Category\dashboard.jpg)

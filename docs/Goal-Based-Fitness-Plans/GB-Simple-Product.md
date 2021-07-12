@@ -4,7 +4,7 @@ To create a Goal-Based Fitness Plan, a Simple Product is created. In this sectio
 
 ##  **Create Simple Product**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">Go to **online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Go to -> **Products** tab on left side panel
 *   Click -> **Add New**

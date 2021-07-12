@@ -10,7 +10,7 @@ Below is the step-by-step guide to create Pre-Recorded Class.
 
 ## **Create Pre-Recorded Class**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Click -> **Pre Recorded Class** 
 

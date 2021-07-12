@@ -4,7 +4,7 @@ To create the Custom Fitness plan, the final step is to create the program which
 
 ## **Create Custom Fitness Program**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a>
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Login with the credentials.
 *   Click -> **Custom Fitness Program** tab on left side panel
 

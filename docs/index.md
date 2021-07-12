@@ -19,7 +19,7 @@ The Admin manual has been created for the Admin team of Crush Fitness India. The
 
 ## **Login - Admin Panel**
 
-*   <a href="https://online.crushfitnessindia.com/wp-admin" target="_blank">**Go to online.crushfitnessindia.com**</a> 
+*   Go to <a href="https://www.mycrush.fit/wp-admin" target="_blank">**mycrush.fit/wp-admin**</a>
 *   Enter the User id and password
 *   Click on Log In
 
