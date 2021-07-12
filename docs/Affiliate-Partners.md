@@ -167,9 +167,6 @@ Below is a Sample CSV:
 The final step is to upload the coupon codes so they can be applied. This is done by importing the updated CSV file. Follow the steps below:
 
 1.  Go to-> **Crush Reports** at the left side panel.
-
-    ![export1](images\Affiliate-Partner\export1.jpg)
-
 2.  Click -> **Import Affiliate** 
 
     ![importaff](images\Affiliate-Partner\importaff.jpg)
