@@ -121,6 +121,19 @@ The redeemable coupons provided to customers are uploaded using a CSV file. Foll
 
 Create a new excel file and save it with .csv extension.
 
+####    **Some important points to remember**
+
+-   Once a coupon code is created, it cannot be deleted or edited.
+-   Only new coupon codes can be added to the existing file.
+-   Column names are very important and should be entered correctly otherwise the coupons will not work properly.
+
+
+####    <a href="https://docs.google.com/spreadsheets/d/1OVrRBuuLrbxcec-43ZHRcpN3yOezVG2Jy1lBkTsSFPA/edit?usp=sharing" target="_blank">**Sample CSV - Affiliate**</a> 
+
+Below is a Sample CSV:
+
+![csv1](images\Affiliate-Partner\csv1.jpg)
+
 ### **CSV Columns to be populated**
 
 The CSV file should have the below columns in order to upload the affiliate partner coupons. Below columns should be filled manually:
@@ -150,17 +163,7 @@ This field shows if the coupon code has been redeemed or not. While updating the
 
 This field gets updated with the user email when the code is redeemed. 
 
-**Some important points to remember:**
 
--   Once a coupon code is created, it cannot be deleted or edited.
--   Only new coupon codes can be added to the existing file.
--   Column names are very important and should be entered correctly otherwise the coupons will not work properly.
-
-Below is a Sample CSV:
-
-![csv1](images\Affiliate-Partner\csv1.jpg)
-
-<a href="https://docs.google.com/spreadsheets/d/1OVrRBuuLrbxcec-43ZHRcpN3yOezVG2Jy1lBkTsSFPA/edit?usp=sharing" target="_blank">**Sample CSV - Affiliate**</a> 
 
 ### **Importing the CSV File**
 
