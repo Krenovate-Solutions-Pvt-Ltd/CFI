@@ -40,11 +40,11 @@ In this manual we will cover step-by-step instructions for the below tasks:
 *   [**Zoom Single Class**](Zoom-Single-Class.md)
 *   [**Pre Recorded Class**](Pre-Recorded-Class.md)
 
-*   [**Custom Fitness**](Custom-Fitness\Introduction.md)
+*   [**Custom Fitness**](Custom-Fitness-Programs\Introduction.md)
 
-    *   [**Lessons/Lectures**](Custom-Fitness/Lectures.md)
-    *   [**Program Sections**](Custom-Fitness/Program-Section.md)
-    *   [**Custom Fitness Programs**](Custom-Fitness/Custom-Fitness-Program.md)
+    *   [**Lessons/Lectures**](Custom-Fitness-Programs\Lectures.md)
+    *   [**Program Sections**](Custom-Fitness-Programs\Program-Section.md)
+    *   [**Custom Fitness Programs**](Custom-Fitness-Programs\Custom-Fitness-Program.md)
 
 *   [**Goal Based Fitness Plan**](Goal-Based-Fitness-Plan\Introduction.md)
 
